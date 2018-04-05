@@ -17,11 +17,11 @@ This application can be used to
 
 	in the app folder.
 
-	#### Build from sources ####
-		```
-		qmake CAD.pro
-		make
-		```
+#### Build from sources ####
+```
+qmake CAD.pro
+make
+```
 
 
 
