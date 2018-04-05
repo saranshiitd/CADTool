@@ -2,11 +2,13 @@
 
 This application can be used to
 1. Generate Projections and Orthographic Views of 3D objects.
+
 ![Projections](/doc/projections.jpg?raw=true "Projections")
 2. Reconstruct 3D objects from orthographic projections.
+
 ![3D_Object](/doc/3d.jpg?raw=true "3D Object")
 
-### Installing
+## Installing
 
 	The app folder contains an AppImage which can run on Linux systems. 
 	Make the app executable by running 
@@ -15,7 +17,7 @@ This application can be used to
 
 	in the app folder.
 
-#### Build from sources ####
+### Build from sources ####
 ```
 qmake CAD.pro
 make
