@@ -11,9 +11,7 @@ This application can be used to
 	The app folder contains an AppImage which can run on Linux systems. 
 	Make the app executable by running 
 
-	```
 	chmod a+x CAD.AppImage 
-	```
 
 	in the app folder.
 
