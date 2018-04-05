@@ -1,0 +1,5 @@
+<map id="wireFrame::generateWireFrame" name="wireFrame::generateWireFrame">
+<area shape="rect" id="node2" href="$classwire_frame.html#ae4675da9bff33c6b78b9c0036f6f5b0e" title="wireFrame::addVertex" alt="" coords="277,5,429,31"/>
+<area shape="rect" id="node3" href="$class_edge_list2_d.html#a9d5ecf2dd50e5f75e189b9588ae784cc" title="EdgeList2D::containsEdge" alt="" coords="264,55,442,80"/>
+<area shape="rect" id="node4" href="$classwire_frame.html#ac743b6520445f5e1e90a760847d47666" title="wireFrame::addEdge" alt="" coords="280,104,425,129"/>
+</map>

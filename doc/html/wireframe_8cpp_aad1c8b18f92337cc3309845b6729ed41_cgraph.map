@@ -1,6 +1,6 @@
 <map id="findAllCollinearOverlapingEdges" name="findAllCollinearOverlapingEdges">
 <area shape="rect" id="node2" href="$namespacegeneral_methods.html#aa7662b2bcff30f8983da23da5edfc766" title="generalMethods::checkOverlap\lCollinear" alt="" coords="228,48,434,87"/>
-<area shape="rect" id="node3" href="$structs_8cpp.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="482,5,581,31"/>
-<area shape="rect" id="node4" href="$structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="490,55,573,80"/>
-<area shape="rect" id="node5" href="$structs_8cpp.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="dotProduct" alt="" coords="489,104,574,129"/>
+<area shape="rect" id="node3" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="482,5,581,31"/>
+<area shape="rect" id="node4" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="490,55,573,80"/>
+<area shape="rect" id="node5" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="489,104,574,129"/>
 </map>

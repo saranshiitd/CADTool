@@ -92,10 +92,10 @@ $(document).ready(function(){initNavTree('face_loop_8cpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;include/structs.h&quot;</code><br />
-<code>#include &quot;include/faceLoop.h&quot;</code><br />
-<code>#include &quot;include/basicLoopEdgeSet.h&quot;</code><br />
-<code>#include &quot;include/generalMethods.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="structs_8h_source.html">include/structs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="face_loop_8h_source.html">include/faceLoop.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="basic_loop_edge_set_8h_source.html">include/basicLoopEdgeSet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="general_methods_8h_source.html">include/generalMethods.h</a>&quot;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -103,6 +103,11 @@ Include dependency graph for faceLoop.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="face_loop_8cpp__incl.png" border="0" usemap="#src_2face_loop_8cpp" alt=""/></div>
 <map name="src_2face_loop_8cpp" id="src_2face_loop_8cpp">
+<area shape="rect" id="node3" href="structs_8h.html" title="include/structs.h" alt="" coords="103,372,220,397"/>
+<area shape="rect" id="node6" href="face_loop_8h.html" title="include/faceLoop.h" alt="" coords="199,225,332,251"/>
+<area shape="rect" id="node7" href="basic_loop_edge_set_8h.html" title="include/basicLoopEdgeSet.h" alt="" coords="300,299,490,324"/>
+<area shape="rect" id="node8" href="general_methods_8h.html" title="include/generalMethods.h" alt="" coords="268,79,442,104"/>
+<area shape="rect" id="node9" href="body_loop_8h.html" title="include/bodyLoop.h" alt="" coords="302,152,439,177"/>
 </map>
 </div>
 </div>
@@ -110,7 +115,7 @@ Include dependency graph for faceLoop.cpp:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aebdb45838a000cabd4e38425b5a2f4d4"><td class="memItemLeft" align="right" valign="top">basicLoopEdgeSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="face_loop_8cpp.html#aebdb45838a000cabd4e38425b5a2f4d4">reversebasicLoopEdgeSet</a> (basicLoopEdgeSet bles)</td></tr>
+<tr class="memitem:aebdb45838a000cabd4e38425b5a2f4d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbasic_loop_edge_set.html">basicLoopEdgeSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="face_loop_8cpp.html#aebdb45838a000cabd4e38425b5a2f4d4">reversebasicLoopEdgeSet</a> (<a class="el" href="classbasic_loop_edge_set.html">basicLoopEdgeSet</a> bles)</td></tr>
 <tr class="separator:aebdb45838a000cabd4e38425b5a2f4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -121,14 +126,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">basicLoopEdgeSet reversebasicLoopEdgeSet </td>
+          <td class="memname"><a class="el" href="classbasic_loop_edge_set.html">basicLoopEdgeSet</a> reversebasicLoopEdgeSet </td>
           <td>(</td>
-          <td class="paramtype">basicLoopEdgeSet&#160;</td>
+          <td class="paramtype"><a class="el" href="classbasic_loop_edge_set.html">basicLoopEdgeSet</a>&#160;</td>
           <td class="paramname"><em>bles</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>-----------&mdash; definition of face loop ------------&mdash; a face loop is formed from L{i} if L{i} does not include any loops and those basic loops included by L{i} directly if any </p>
 
 <p class="definition">Definition at line <a class="el" href="face_loop_8cpp_source.html#l00033">33</a> of file <a class="el" href="face_loop_8cpp_source.html">faceLoop.cpp</a>.</p>
 <div class="dynheader">
@@ -136,7 +142,11 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="face_loop_8cpp_aebdb45838a000cabd4e38425b5a2f4d4_icgraph.png" border="0" usemap="#face_loop_8cpp_aebdb45838a000cabd4e38425b5a2f4d4_icgraph" alt=""/></div>
 <map name="face_loop_8cpp_aebdb45838a000cabd4e38425b5a2f4d4_icgraph" id="face_loop_8cpp_aebdb45838a000cabd4e38425b5a2f4d4_icgraph">
-<area shape="rect" id="node2" href="namespacegeneral_methods.html#afe4087e253b318326a0a1578d34b42ca" title="generalMethods::getReversed\lFaceLoop" alt="" coords="231,5,431,44"/>
+<area shape="rect" id="node2" href="classface_loop.html#aa57ee2f9fd011ac4a8aa9b922998c34a" title="faceLoop::arrange" alt="" coords="266,5,396,31"/>
+<area shape="rect" id="node3" href="classwire_frame.html#ac5c8d8c3b1b5f693ad46cb54aae1108a" title="wireFrame::generateFaceLoops" alt="" coords="479,20,690,45"/>
+<area shape="rect" id="node4" href="namespacegeneral_methods.html#afe4087e253b318326a0a1578d34b42ca" title="generalMethods::getReversed\lFaceLoop" alt="" coords="231,107,431,145"/>
+<area shape="rect" id="node5" href="classwire_frame.html#a4a14c6a4043acfaba2a7122daaf925e6" title="wireFrame::reverseFaceLoops" alt="" coords="483,84,686,109"/>
+<area shape="rect" id="node6" href="classwire_frame.html#a114f0cea254a8845bf5e999503dfcdec" title="wireFrame::generateBodyLoops" alt="" coords="479,133,690,159"/>
 </map>
 </div>
 

@@ -1,5 +1,5 @@
 <map id="are4Coplanar" name="are4Coplanar">
 <area shape="rect" id="node2" href="$namespacegeneral_methods.html#a508d15a0c76920dc4f98cf8da254f9c4" title="generalMethods::checkCoplanar" alt="" coords="155,31,369,56"/>
-<area shape="rect" id="node3" href="$structs_8cpp.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="417,5,516,31"/>
-<area shape="rect" id="node4" href="$structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="425,55,508,80"/>
+<area shape="rect" id="node3" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="417,5,516,31"/>
+<area shape="rect" id="node4" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="425,55,508,80"/>
 </map>

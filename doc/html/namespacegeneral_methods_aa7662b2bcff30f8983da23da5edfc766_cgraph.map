@@ -1,5 +1,5 @@
 <map id="generalMethods::checkOverlapCollinear" name="generalMethods::checkOverlapCollinear">
-<area shape="rect" id="node2" href="$structs_8cpp.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="259,5,358,31"/>
-<area shape="rect" id="node3" href="$structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="267,55,351,80"/>
-<area shape="rect" id="node4" href="$structs_8cpp.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="dotProduct" alt="" coords="266,104,352,129"/>
+<area shape="rect" id="node2" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="259,5,358,31"/>
+<area shape="rect" id="node3" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="267,55,351,80"/>
+<area shape="rect" id="node4" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="266,104,352,129"/>
 </map>

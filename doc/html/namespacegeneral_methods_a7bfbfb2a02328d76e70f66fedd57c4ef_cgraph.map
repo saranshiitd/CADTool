@@ -1,5 +1,5 @@
 <map id="generalMethods::orientation" name="generalMethods::orientation">
-<area shape="rect" id="node2" href="$structs_8cpp.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="240,5,339,31"/>
-<area shape="rect" id="node3" href="$structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="248,55,331,80"/>
-<area shape="rect" id="node4" href="$structs_8cpp.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="dotProduct" alt="" coords="247,104,332,129"/>
+<area shape="rect" id="node2" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="240,5,339,31"/>
+<area shape="rect" id="node3" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="248,55,331,80"/>
+<area shape="rect" id="node4" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="247,104,332,129"/>
 </map>

@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$namespacegeneral_methods.html#a56efd049c58aae30a7b0caf39beab615" title="generalMethods::doIntersect" alt="" coords="506,79,696,104"/>
 <area shape="rect" id="node4" href="$namespacegeneral_methods.html#a7bfbfb2a02328d76e70f66fedd57c4ef" title="generalMethods::orientation" alt="" coords="747,55,934,80"/>
 <area shape="rect" id="node8" href="$namespacegeneral_methods.html#a557bf2257d6658862b42124035aa9588" title="generalMethods::onSegment" alt="" coords="744,104,937,129"/>
-<area shape="rect" id="node5" href="$structs_8cpp.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="985,5,1084,31"/>
-<area shape="rect" id="node6" href="$structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="992,55,1076,80"/>
-<area shape="rect" id="node7" href="$structs_8cpp.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="dotProduct" alt="" coords="991,104,1077,129"/>
+<area shape="rect" id="node5" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="985,5,1084,31"/>
+<area shape="rect" id="node6" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="992,55,1076,80"/>
+<area shape="rect" id="node7" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="991,104,1077,129"/>
 </map>

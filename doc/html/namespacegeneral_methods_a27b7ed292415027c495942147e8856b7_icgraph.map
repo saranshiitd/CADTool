@@ -1,3 +1,5 @@
 <map id="generalMethods::isInside" name="generalMethods::isInside">
-<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="223,5,458,31"/>
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="223,31,458,56"/>
+<area shape="rect" id="node3" href="$classface_loop.html#a603c5cfde9765657af9cf088df8fc474" title="faceLoop::operator==" alt="" coords="536,5,685,31"/>
+<area shape="rect" id="node4" href="$classwire_frame.html#ac5c8d8c3b1b5f693ad46cb54aae1108a" title="wireFrame::generateFaceLoops" alt="" coords="506,55,716,80"/>
 </map>

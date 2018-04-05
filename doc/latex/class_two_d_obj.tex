@@ -1,0 +1,862 @@
+\hypertarget{class_two_d_obj}{}\section{Two\+D\+Obj Class Reference}
+\label{class_two_d_obj}\index{Two\+D\+Obj@{Two\+D\+Obj}}
+
+
+{\ttfamily \#include $<$Two\+D\+Obj.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_two_d_obj_aa3c92bdec23c2c687b3e238934e24590}{Two\+D\+Obj}} (std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{class_two_d_obj_ae1325111bfe55914cdcb399bc299442b}{vertices}}, std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a48a318d3eac2dc2f2997aa4a4dc2450f}{edge\+List}}, std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$)
+\item 
+void \mbox{\hyperlink{class_two_d_obj_a3e4e17ffd7b54bf442bfce6387ed4c27}{generate\+Top\+View}} ()
+\begin{DoxyCompactList}\small\item\em generates Top View \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_two_d_obj_a40fa2f831edda30806a28e30ae0b0feb}{generate\+Front\+View}} ()
+\begin{DoxyCompactList}\small\item\em generates Top View \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_two_d_obj_a19b8f32d11ae455e15297aefa0028967}{generate\+Side\+View}} ()
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ $>$ \mbox{\hyperlink{class_two_d_obj_a0e7b5705ad697c100b39a1475b46475a}{get\+Views}} ()
+\item 
+float $\ast$ \mbox{\hyperlink{class_two_d_obj_ab6d468aec6681bef559fc2f222d7063a}{get\+Min\+XY}} ()
+\item 
+void \mbox{\hyperlink{class_two_d_obj_a6df93c379589948f30db2eacfa5d68bb}{generate\+Isometric}} ()
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_ab0d27341367906fc4f4d9e5e8b4b8543}{hidden\+In\+View}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge, int \mbox{\hyperlink{structdirection}{direction}})
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_acd188f5b49cd1d8c21fde2d8646294fe}{check\+Hides}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge, std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ plane3D, int \mbox{\hyperlink{structdirection}{direction}})
+\item 
+\mbox{\hyperlink{structedge2_d}{edge2D}} \mbox{\hyperlink{class_two_d_obj_a1cd226f2becc270af54e16265f9b3b55}{get2\+D\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge3d, int \mbox{\hyperlink{structdirection}{direction}})
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex2_d}{vertex2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a265505612ca1a250f29052cb303d7762}{get\+Plane2D}} (std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ plane3D, int \mbox{\hyperlink{structdirection}{direction}})
+\item 
+int \mbox{\hyperlink{class_two_d_obj_a331a606153d723b8290bd885475bb1b5}{is\+Inside}} (std\+::vector$<$ \mbox{\hyperlink{structvertex2_d}{vertex2D}} $>$ polygon, int n, \mbox{\hyperlink{structvertex2_d}{vertex2D}} p)
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_a86158be2b2314a79b2eaa262c28738d5}{do\+Intersect}} (\mbox{\hyperlink{structvertex2_d}{vertex2D}} p1, \mbox{\hyperlink{structvertex2_d}{vertex2D}} q1, \mbox{\hyperlink{structvertex2_d}{vertex2D}} p2, \mbox{\hyperlink{structvertex2_d}{vertex2D}} q2)
+\item 
+int \mbox{\hyperlink{class_two_d_obj_a68ccca268283f878cfa12c73365471a3}{orientation}} (\mbox{\hyperlink{structvertex2_d}{vertex2D}} p, \mbox{\hyperlink{structvertex2_d}{vertex2D}} q, \mbox{\hyperlink{structvertex2_d}{vertex2D}} r)
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_a17f849373d477c1d46dfc917fe70c75b}{on\+Segment}} (\mbox{\hyperlink{structvertex2_d}{vertex2D}} p, \mbox{\hyperlink{structvertex2_d}{vertex2D}} q, \mbox{\hyperlink{structvertex2_d}{vertex2D}} r)
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_afddeaea49f6d8bc76473a9fa48ff37ef}{can\+Hide}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge, std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ plane3D, int \mbox{\hyperlink{structdirection}{direction}})
+\item 
+void \mbox{\hyperlink{class_two_d_obj_a4d364edb11e97ddaf8eb9c61666eb486}{apply\+Rotation}} (float angles\mbox{[}3\mbox{]})
+\item 
+void \mbox{\hyperlink{class_two_d_obj_abbcac0fcfbc8605a16300eb79282ce4f}{rotation\+On\+Edges}} (float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]})
+\item 
+\mbox{\hyperlink{structedge3_d}{edge3D}} \mbox{\hyperlink{class_two_d_obj_af24bd21a8a1319b6d075537e895d7f4f}{rotate\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge, float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]})
+\item 
+void \mbox{\hyperlink{class_two_d_obj_a2627a8f625c1076f4261dd61724be835}{rotation\+On\+Plane}} (float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]})
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a7981f53246124f8ca4d267a04dfd9c87}{rotate\+Plane}} (float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]}, std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ plane3D)
+\item 
+void \mbox{\hyperlink{class_two_d_obj_a68343b4431fd7282dde6fabbf7a231ce}{rotation\+On\+Vertices}} (float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]})
+\item 
+\mbox{\hyperlink{structvertex3_d}{vertex3D}} \mbox{\hyperlink{class_two_d_obj_a16583cd47ab05c87310f494ef00e16b7}{rotate\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} vertex, float rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]})
+\item 
+bool \mbox{\hyperlink{class_two_d_obj_ab9d3420793d260703d8882196efccfc9}{plane\+Contains\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge, std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ plane3D)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a708cefccdc3c40a8bfa5b4c345ba95df}{divide\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a5ed2cf65947c6c8f40de03d7ecba9f4b}{orignal\+Vertices}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a00ba44029623eca2c1f2b34a70f7035d}{orignal\+Edge\+List}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$ \mbox{\hyperlink{class_two_d_obj_ad71fe1f675c3e1f8fe2a21c8bbc3149e}{orignal\+Face\+List}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{class_two_d_obj_ae1325111bfe55914cdcb399bc299442b}{vertices}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{class_two_d_obj_a48a318d3eac2dc2f2997aa4a4dc2450f}{edge\+List}}
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$ \mbox{\hyperlink{class_two_d_obj_a57fb6cdcb9c4b706651b86785cc43381}{face\+List}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a041112b9394b373175014e92e7e1f9b6}{top\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_afd8b3b3be951e1a3f1461b9c2838d634}{front\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a192176306bc5f2115e3d546f218356bb}{side\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_ace5d83e1b676e048176f7c17f5eee736}{isometric\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a9de9704547d680c52850966a7b6397f8}{top\+View\+Hidden}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a2e594bbab7f3d884c05301f11c84de8e}{top\+View\+Vis}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a0358e12e432b205f285cb0b4d93c9b08}{front\+View\+Hidden}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a6356dfc471d169e62f446b976ecd5137}{front\+View\+Vis}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a7ac59f63f8dddd766ede7537e4f56b6a}{side\+View\+Hidden}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a813fa6689e1481cb6a0b851d925785bd}{side\+View\+Vis}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_aac0ab19af33023cf9cb3239ba1f808a0}{no\+Change\+Top\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_a6e5f8b57df6335a38d66703fb472e9ca}{no\+Change\+Side\+View}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ \mbox{\hyperlink{class_two_d_obj_af5049f5e28dc1331242955c4d7f5739c}{no\+Change\+Front\+View}}
+\item 
+int \mbox{\hyperlink{class_two_d_obj_a5ef060838790b5e927a9be217ca082e0}{factor}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Two\+D\+Obj.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_two_d_obj_aa3c92bdec23c2c687b3e238934e24590}\label{class_two_d_obj_aa3c92bdec23c2c687b3e238934e24590}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!Two\+D\+Obj@{Two\+D\+Obj}}
+\index{Two\+D\+Obj@{Two\+D\+Obj}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{Two\+D\+Obj()}{TwoDObj()}}
+{\footnotesize\ttfamily Two\+D\+Obj\+::\+Two\+D\+Obj (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{vertices,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$}]{edge\+List,  }\item[{std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$}]{faces }\end{DoxyParamCaption})}
+
+
+
+Definition at line 10 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_aa3c92bdec23c2c687b3e238934e24590_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_two_d_obj_a4d364edb11e97ddaf8eb9c61666eb486}\label{class_two_d_obj_a4d364edb11e97ddaf8eb9c61666eb486}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!apply\+Rotation@{apply\+Rotation}}
+\index{apply\+Rotation@{apply\+Rotation}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{apply\+Rotation()}{applyRotation()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::apply\+Rotation (\begin{DoxyParamCaption}\item[{float}]{angles\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 678 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a4d364edb11e97ddaf8eb9c61666eb486_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_afddeaea49f6d8bc76473a9fa48ff37ef}\label{class_two_d_obj_afddeaea49f6d8bc76473a9fa48ff37ef}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!can\+Hide@{can\+Hide}}
+\index{can\+Hide@{can\+Hide}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{can\+Hide()}{canHide()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::can\+Hide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{plane3D,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line 334 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_afddeaea49f6d8bc76473a9fa48ff37ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_acd188f5b49cd1d8c21fde2d8646294fe}\label{class_two_d_obj_acd188f5b49cd1d8c21fde2d8646294fe}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!check\+Hides@{check\+Hides}}
+\index{check\+Hides@{check\+Hides}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{check\+Hides()}{checkHides()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::check\+Hides (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{plane3D,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line 375 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_acd188f5b49cd1d8c21fde2d8646294fe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_acd188f5b49cd1d8c21fde2d8646294fe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a708cefccdc3c40a8bfa5b4c345ba95df}\label{class_two_d_obj_a708cefccdc3c40a8bfa5b4c345ba95df}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!divide\+Edge@{divide\+Edge}}
+\index{divide\+Edge@{divide\+Edge}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{divide\+Edge()}{divideEdge()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ Two\+D\+Obj\+::divide\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge }\end{DoxyParamCaption})}
+
+
+
+Definition at line 722 of file Two\+D\+Obj.\+cpp.
+
+\mbox{\Hypertarget{class_two_d_obj_a86158be2b2314a79b2eaa262c28738d5}\label{class_two_d_obj_a86158be2b2314a79b2eaa262c28738d5}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!do\+Intersect@{do\+Intersect}}
+\index{do\+Intersect@{do\+Intersect}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{do\+Intersect()}{doIntersect()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::do\+Intersect (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{p1,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{q1,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{p2,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{q2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 194 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_two_d_obj_a86158be2b2314a79b2eaa262c28738d5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a86158be2b2314a79b2eaa262c28738d5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a40fa2f831edda30806a28e30ae0b0feb}\label{class_two_d_obj_a40fa2f831edda30806a28e30ae0b0feb}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!generate\+Front\+View@{generate\+Front\+View}}
+\index{generate\+Front\+View@{generate\+Front\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{generate\+Front\+View()}{generateFrontView()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::generate\+Front\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+generates Top View 
+
+
+
+Definition at line 431 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a40fa2f831edda30806a28e30ae0b0feb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a40fa2f831edda30806a28e30ae0b0feb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a6df93c379589948f30db2eacfa5d68bb}\label{class_two_d_obj_a6df93c379589948f30db2eacfa5d68bb}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!generate\+Isometric@{generate\+Isometric}}
+\index{generate\+Isometric@{generate\+Isometric}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{generate\+Isometric()}{generateIsometric()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::generate\+Isometric (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 543 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a6df93c379589948f30db2eacfa5d68bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a19b8f32d11ae455e15297aefa0028967}\label{class_two_d_obj_a19b8f32d11ae455e15297aefa0028967}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!generate\+Side\+View@{generate\+Side\+View}}
+\index{generate\+Side\+View@{generate\+Side\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{generate\+Side\+View()}{generateSideView()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::generate\+Side\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 454 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a19b8f32d11ae455e15297aefa0028967_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a19b8f32d11ae455e15297aefa0028967_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a3e4e17ffd7b54bf442bfce6387ed4c27}\label{class_two_d_obj_a3e4e17ffd7b54bf442bfce6387ed4c27}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!generate\+Top\+View@{generate\+Top\+View}}
+\index{generate\+Top\+View@{generate\+Top\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{generate\+Top\+View()}{generateTopView()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::generate\+Top\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+generates Top View 
+
+
+
+Definition at line 410 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a3e4e17ffd7b54bf442bfce6387ed4c27_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a3e4e17ffd7b54bf442bfce6387ed4c27_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a1cd226f2becc270af54e16265f9b3b55}\label{class_two_d_obj_a1cd226f2becc270af54e16265f9b3b55}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!get2\+D\+Edge@{get2\+D\+Edge}}
+\index{get2\+D\+Edge@{get2\+D\+Edge}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{get2\+D\+Edge()}{get2DEdge()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structedge2_d}{edge2D}} Two\+D\+Obj\+::get2\+D\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge3d,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line 313 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a1cd226f2becc270af54e16265f9b3b55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_ab6d468aec6681bef559fc2f222d7063a}\label{class_two_d_obj_ab6d468aec6681bef559fc2f222d7063a}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!get\+Min\+XY@{get\+Min\+XY}}
+\index{get\+Min\+XY@{get\+Min\+XY}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{get\+Min\+X\+Y()}{getMinXY()}}
+{\footnotesize\ttfamily float $\ast$ Two\+D\+Obj\+::get\+Min\+XY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 49 of file Two\+D\+Obj.\+cpp.
+
+\mbox{\Hypertarget{class_two_d_obj_a265505612ca1a250f29052cb303d7762}\label{class_two_d_obj_a265505612ca1a250f29052cb303d7762}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!get\+Plane2D@{get\+Plane2D}}
+\index{get\+Plane2D@{get\+Plane2D}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{get\+Plane2\+D()}{getPlane2D()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structvertex2_d}{vertex2D}} $>$ Two\+D\+Obj\+::get\+Plane2D (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{plane3D,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line 284 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a265505612ca1a250f29052cb303d7762_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a0e7b5705ad697c100b39a1475b46475a}\label{class_two_d_obj_a0e7b5705ad697c100b39a1475b46475a}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!get\+Views@{get\+Views}}
+\index{get\+Views@{get\+Views}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{get\+Views()}{getViews()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structedge2_d}{edge2D}} $>$ $>$ Two\+D\+Obj\+::get\+Views (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a0e7b5705ad697c100b39a1475b46475a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_ab0d27341367906fc4f4d9e5e8b4b8543}\label{class_two_d_obj_ab0d27341367906fc4f4d9e5e8b4b8543}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!hidden\+In\+View@{hidden\+In\+View}}
+\index{hidden\+In\+View@{hidden\+In\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{hidden\+In\+View()}{hiddenInView()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::hidden\+In\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line 402 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_ab0d27341367906fc4f4d9e5e8b4b8543_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_ab0d27341367906fc4f4d9e5e8b4b8543_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a331a606153d723b8290bd885475bb1b5}\label{class_two_d_obj_a331a606153d723b8290bd885475bb1b5}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!is\+Inside@{is\+Inside}}
+\index{is\+Inside@{is\+Inside}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{is\+Inside()}{isInside()}}
+{\footnotesize\ttfamily int Two\+D\+Obj\+::is\+Inside (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex2_d}{vertex2D}} $>$}]{polygon,  }\item[{int}]{n,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 225 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a331a606153d723b8290bd885475bb1b5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a331a606153d723b8290bd885475bb1b5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a17f849373d477c1d46dfc917fe70c75b}\label{class_two_d_obj_a17f849373d477c1d46dfc917fe70c75b}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!on\+Segment@{on\+Segment}}
+\index{on\+Segment@{on\+Segment}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{on\+Segment()}{onSegment()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::on\+Segment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{p,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{q,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Definition at line 179 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a17f849373d477c1d46dfc917fe70c75b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a68ccca268283f878cfa12c73365471a3}\label{class_two_d_obj_a68ccca268283f878cfa12c73365471a3}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!orientation@{orientation}}
+\index{orientation@{orientation}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{orientation()}{orientation()}}
+{\footnotesize\ttfamily int Two\+D\+Obj\+::orientation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{p,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{q,  }\item[{\mbox{\hyperlink{structvertex2_d}{vertex2D}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Definition at line 187 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a68ccca268283f878cfa12c73365471a3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_ab9d3420793d260703d8882196efccfc9}\label{class_two_d_obj_ab9d3420793d260703d8882196efccfc9}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!plane\+Contains\+Edge@{plane\+Contains\+Edge}}
+\index{plane\+Contains\+Edge@{plane\+Contains\+Edge}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{plane\+Contains\+Edge()}{planeContainsEdge()}}
+{\footnotesize\ttfamily bool Two\+D\+Obj\+::plane\+Contains\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{plane3D }\end{DoxyParamCaption})}
+
+
+
+Definition at line 355 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_ab9d3420793d260703d8882196efccfc9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_af24bd21a8a1319b6d075537e895d7f4f}\label{class_two_d_obj_af24bd21a8a1319b6d075537e895d7f4f}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotate\+Edge@{rotate\+Edge}}
+\index{rotate\+Edge@{rotate\+Edge}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotate\+Edge()}{rotateEdge()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structedge3_d}{edge3D}} Two\+D\+Obj\+::rotate\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge,  }\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 647 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_two_d_obj_af24bd21a8a1319b6d075537e895d7f4f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_af24bd21a8a1319b6d075537e895d7f4f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a7981f53246124f8ca4d267a04dfd9c87}\label{class_two_d_obj_a7981f53246124f8ca4d267a04dfd9c87}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotate\+Plane@{rotate\+Plane}}
+\index{rotate\+Plane@{rotate\+Plane}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotate\+Plane()}{rotatePlane()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ Two\+D\+Obj\+::rotate\+Plane (\begin{DoxyParamCaption}\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]},  }\item[{std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{plane3D }\end{DoxyParamCaption})}
+
+
+
+Definition at line 627 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_two_d_obj_a7981f53246124f8ca4d267a04dfd9c87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a7981f53246124f8ca4d267a04dfd9c87_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a16583cd47ab05c87310f494ef00e16b7}\label{class_two_d_obj_a16583cd47ab05c87310f494ef00e16b7}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotate\+Vertex@{rotate\+Vertex}}
+\index{rotate\+Vertex@{rotate\+Vertex}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotate\+Vertex()}{rotateVertex()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structvertex3_d}{vertex3D}} Two\+D\+Obj\+::rotate\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{vertex,  }\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 609 of file Two\+D\+Obj.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a16583cd47ab05c87310f494ef00e16b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_abbcac0fcfbc8605a16300eb79282ce4f}\label{class_two_d_obj_abbcac0fcfbc8605a16300eb79282ce4f}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotation\+On\+Edges@{rotation\+On\+Edges}}
+\index{rotation\+On\+Edges@{rotation\+On\+Edges}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotation\+On\+Edges()}{rotationOnEdges()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::rotation\+On\+Edges (\begin{DoxyParamCaption}\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 653 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_abbcac0fcfbc8605a16300eb79282ce4f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_abbcac0fcfbc8605a16300eb79282ce4f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a2627a8f625c1076f4261dd61724be835}\label{class_two_d_obj_a2627a8f625c1076f4261dd61724be835}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotation\+On\+Plane@{rotation\+On\+Plane}}
+\index{rotation\+On\+Plane@{rotation\+On\+Plane}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotation\+On\+Plane()}{rotationOnPlane()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::rotation\+On\+Plane (\begin{DoxyParamCaption}\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 640 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a2627a8f625c1076f4261dd61724be835_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a2627a8f625c1076f4261dd61724be835_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_two_d_obj_a68343b4431fd7282dde6fabbf7a231ce}\label{class_two_d_obj_a68343b4431fd7282dde6fabbf7a231ce}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!rotation\+On\+Vertices@{rotation\+On\+Vertices}}
+\index{rotation\+On\+Vertices@{rotation\+On\+Vertices}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{rotation\+On\+Vertices()}{rotationOnVertices()}}
+{\footnotesize\ttfamily void Two\+D\+Obj\+::rotation\+On\+Vertices (\begin{DoxyParamCaption}\item[{float}]{rotationM\mbox{[}$\,$\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 617 of file Two\+D\+Obj.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a68343b4431fd7282dde6fabbf7a231ce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_two_d_obj_a68343b4431fd7282dde6fabbf7a231ce_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_two_d_obj_a48a318d3eac2dc2f2997aa4a4dc2450f}\label{class_two_d_obj_a48a318d3eac2dc2f2997aa4a4dc2450f}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!edge\+List@{edge\+List}}
+\index{edge\+List@{edge\+List}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{edge\+List}{edgeList}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge3_d}{edge3D}}$>$ Two\+D\+Obj\+::edge\+List}
+
+
+
+Definition at line 14 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a57fb6cdcb9c4b706651b86785cc43381}\label{class_two_d_obj_a57fb6cdcb9c4b706651b86785cc43381}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!face\+List@{face\+List}}
+\index{face\+List@{face\+List}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{face\+List}{faceList}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ $>$ Two\+D\+Obj\+::face\+List}
+
+
+
+Definition at line 15 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a5ef060838790b5e927a9be217ca082e0}\label{class_two_d_obj_a5ef060838790b5e927a9be217ca082e0}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!factor@{factor}}
+\index{factor@{factor}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{factor}{factor}}
+{\footnotesize\ttfamily int Two\+D\+Obj\+::factor}
+
+
+
+Definition at line 29 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_afd8b3b3be951e1a3f1461b9c2838d634}\label{class_two_d_obj_afd8b3b3be951e1a3f1461b9c2838d634}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!front\+View@{front\+View}}
+\index{front\+View@{front\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{front\+View}{frontView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::front\+View}
+
+
+
+Definition at line 17 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a0358e12e432b205f285cb0b4d93c9b08}\label{class_two_d_obj_a0358e12e432b205f285cb0b4d93c9b08}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!front\+View\+Hidden@{front\+View\+Hidden}}
+\index{front\+View\+Hidden@{front\+View\+Hidden}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{front\+View\+Hidden}{frontViewHidden}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::front\+View\+Hidden}
+
+
+
+Definition at line 22 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a6356dfc471d169e62f446b976ecd5137}\label{class_two_d_obj_a6356dfc471d169e62f446b976ecd5137}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!front\+View\+Vis@{front\+View\+Vis}}
+\index{front\+View\+Vis@{front\+View\+Vis}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{front\+View\+Vis}{frontViewVis}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::front\+View\+Vis}
+
+
+
+Definition at line 23 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_ace5d83e1b676e048176f7c17f5eee736}\label{class_two_d_obj_ace5d83e1b676e048176f7c17f5eee736}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!isometric\+View@{isometric\+View}}
+\index{isometric\+View@{isometric\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{isometric\+View}{isometricView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::isometric\+View}
+
+
+
+Definition at line 19 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_af5049f5e28dc1331242955c4d7f5739c}\label{class_two_d_obj_af5049f5e28dc1331242955c4d7f5739c}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!no\+Change\+Front\+View@{no\+Change\+Front\+View}}
+\index{no\+Change\+Front\+View@{no\+Change\+Front\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{no\+Change\+Front\+View}{noChangeFrontView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::no\+Change\+Front\+View}
+
+
+
+Definition at line 28 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a6e5f8b57df6335a38d66703fb472e9ca}\label{class_two_d_obj_a6e5f8b57df6335a38d66703fb472e9ca}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!no\+Change\+Side\+View@{no\+Change\+Side\+View}}
+\index{no\+Change\+Side\+View@{no\+Change\+Side\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{no\+Change\+Side\+View}{noChangeSideView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::no\+Change\+Side\+View}
+
+
+
+Definition at line 27 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_aac0ab19af33023cf9cb3239ba1f808a0}\label{class_two_d_obj_aac0ab19af33023cf9cb3239ba1f808a0}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!no\+Change\+Top\+View@{no\+Change\+Top\+View}}
+\index{no\+Change\+Top\+View@{no\+Change\+Top\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{no\+Change\+Top\+View}{noChangeTopView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::no\+Change\+Top\+View}
+
+
+
+Definition at line 26 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a00ba44029623eca2c1f2b34a70f7035d}\label{class_two_d_obj_a00ba44029623eca2c1f2b34a70f7035d}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!orignal\+Edge\+List@{orignal\+Edge\+List}}
+\index{orignal\+Edge\+List@{orignal\+Edge\+List}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{orignal\+Edge\+List}{orignalEdgeList}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge3_d}{edge3D}}$>$ Two\+D\+Obj\+::orignal\+Edge\+List}
+
+
+
+Definition at line 11 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_ad71fe1f675c3e1f8fe2a21c8bbc3149e}\label{class_two_d_obj_ad71fe1f675c3e1f8fe2a21c8bbc3149e}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!orignal\+Face\+List@{orignal\+Face\+List}}
+\index{orignal\+Face\+List@{orignal\+Face\+List}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{orignal\+Face\+List}{orignalFaceList}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ $>$ Two\+D\+Obj\+::orignal\+Face\+List}
+
+
+
+Definition at line 12 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a5ed2cf65947c6c8f40de03d7ecba9f4b}\label{class_two_d_obj_a5ed2cf65947c6c8f40de03d7ecba9f4b}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!orignal\+Vertices@{orignal\+Vertices}}
+\index{orignal\+Vertices@{orignal\+Vertices}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{orignal\+Vertices}{orignalVertices}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ Two\+D\+Obj\+::orignal\+Vertices}
+
+
+
+Definition at line 10 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a192176306bc5f2115e3d546f218356bb}\label{class_two_d_obj_a192176306bc5f2115e3d546f218356bb}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!side\+View@{side\+View}}
+\index{side\+View@{side\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{side\+View}{sideView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::side\+View}
+
+
+
+Definition at line 18 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a7ac59f63f8dddd766ede7537e4f56b6a}\label{class_two_d_obj_a7ac59f63f8dddd766ede7537e4f56b6a}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!side\+View\+Hidden@{side\+View\+Hidden}}
+\index{side\+View\+Hidden@{side\+View\+Hidden}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{side\+View\+Hidden}{sideViewHidden}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::side\+View\+Hidden}
+
+
+
+Definition at line 24 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a813fa6689e1481cb6a0b851d925785bd}\label{class_two_d_obj_a813fa6689e1481cb6a0b851d925785bd}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!side\+View\+Vis@{side\+View\+Vis}}
+\index{side\+View\+Vis@{side\+View\+Vis}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{side\+View\+Vis}{sideViewVis}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::side\+View\+Vis}
+
+
+
+Definition at line 25 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a041112b9394b373175014e92e7e1f9b6}\label{class_two_d_obj_a041112b9394b373175014e92e7e1f9b6}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!top\+View@{top\+View}}
+\index{top\+View@{top\+View}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{top\+View}{topView}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::top\+View}
+
+
+
+Definition at line 16 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a9de9704547d680c52850966a7b6397f8}\label{class_two_d_obj_a9de9704547d680c52850966a7b6397f8}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!top\+View\+Hidden@{top\+View\+Hidden}}
+\index{top\+View\+Hidden@{top\+View\+Hidden}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{top\+View\+Hidden}{topViewHidden}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::top\+View\+Hidden}
+
+
+
+Definition at line 20 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_a2e594bbab7f3d884c05301f11c84de8e}\label{class_two_d_obj_a2e594bbab7f3d884c05301f11c84de8e}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!top\+View\+Vis@{top\+View\+Vis}}
+\index{top\+View\+Vis@{top\+View\+Vis}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{top\+View\+Vis}{topViewVis}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge2_d}{edge2D}}$>$ Two\+D\+Obj\+::top\+View\+Vis}
+
+
+
+Definition at line 21 of file Two\+D\+Obj.\+h.
+
+\mbox{\Hypertarget{class_two_d_obj_ae1325111bfe55914cdcb399bc299442b}\label{class_two_d_obj_ae1325111bfe55914cdcb399bc299442b}} 
+\index{Two\+D\+Obj@{Two\+D\+Obj}!vertices@{vertices}}
+\index{vertices@{vertices}!Two\+D\+Obj@{Two\+D\+Obj}}
+\subsubsection{\texorpdfstring{vertices}{vertices}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ Two\+D\+Obj\+::vertices}
+
+
+
+Definition at line 13 of file Two\+D\+Obj.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_two_d_obj_8h}{Two\+D\+Obj.\+h}}\item 
+src/\mbox{\hyperlink{_two_d_obj_8cpp}{Two\+D\+Obj.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="TwoDObj::rotateVertex" name="TwoDObj::rotateVertex">
+<area shape="rect" id="node2" href="$class_two_d_obj.html#a68343b4431fd7282dde6fabbf7a231ce" title="TwoDObj::rotationOnVertices" alt="" coords="409,5,602,31"/>
+<area shape="rect" id="node4" href="$class_two_d_obj.html#a7981f53246124f8ca4d267a04dfd9c87" title="TwoDObj::rotatePlane" alt="" coords="209,55,361,80"/>
+<area shape="rect" id="node6" href="$class_two_d_obj.html#af24bd21a8a1319b6d075537e895d7f4f" title="TwoDObj::rotateEdge" alt="" coords="210,104,359,129"/>
+<area shape="rect" id="node3" href="$class_two_d_obj.html#a4d364edb11e97ddaf8eb9c61666eb486" title="TwoDObj::applyRotation" alt="" coords="650,55,815,80"/>
+<area shape="rect" id="node5" href="$class_two_d_obj.html#a2627a8f625c1076f4261dd61724be835" title="TwoDObj::rotationOnPlane" alt="" coords="415,55,595,80"/>
+<area shape="rect" id="node7" href="$class_two_d_obj.html#abbcac0fcfbc8605a16300eb79282ce4f" title="TwoDObj::rotationOnEdges" alt="" coords="413,104,597,129"/>
+</map>

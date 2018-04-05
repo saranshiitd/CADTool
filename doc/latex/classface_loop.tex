@@ -1,0 +1,181 @@
+\hypertarget{classface_loop}{}\section{face\+Loop Class Reference}
+\label{classface_loop}\index{face\+Loop@{face\+Loop}}
+
+
+{\ttfamily \#include $<$face\+Loop.\+h$>$}
+
+
+
+Collaboration diagram for face\+Loop\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classface_loop__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classface_loop_ae948abd198e6e1496bd320d18b5d638b}{add\+Loop}} (\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} loop)
+\item 
+void \mbox{\hyperlink{classface_loop_ac1c63792b00865fc45ad8934b5580e62}{remove\+Loop}} (\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} loop)
+\item 
+void \mbox{\hyperlink{classface_loop_aa57ee2f9fd011ac4a8aa9b922998c34a}{arrange}} ()
+\item 
+bool \mbox{\hyperlink{classface_loop_a603c5cfde9765657af9cf088df8fc474}{operator==}} (\mbox{\hyperlink{classface_loop}{face\+Loop}} other) const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{classface_loop_ad8ba004157748e073c1bc7527fda627c}{get\+All\+Edges}} ()
+\item 
+bool \mbox{\hyperlink{classface_loop_a3ed69fdb3554a255f484fa78fd1f3361}{if\+Face\+Loop\+Contains}} (\mbox{\hyperlink{structedge3_d}{edge3D}} edge)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} $>$ \mbox{\hyperlink{classface_loop_a3f032bc5496c429abc4723632d29ceaf}{faceloop}}
+\item 
+\mbox{\hyperlink{structdirection}{direction}} \mbox{\hyperlink{classface_loop_a2ac7efac9235e5d6c6c4694f2ea8a6c2}{normal}}
+\item 
+\mbox{\hyperlink{structplane}{plane}} \mbox{\hyperlink{classface_loop_ace3e113db57081ef98d333a5bfd32daa}{p}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 17 of file face\+Loop.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classface_loop_ae948abd198e6e1496bd320d18b5d638b}\label{classface_loop_ae948abd198e6e1496bd320d18b5d638b}} 
+\index{face\+Loop@{face\+Loop}!add\+Loop@{add\+Loop}}
+\index{add\+Loop@{add\+Loop}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{add\+Loop()}{addLoop()}}
+{\footnotesize\ttfamily void face\+Loop\+::add\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}}}]{loop }\end{DoxyParamCaption})}
+
+add loop to face loop 
+
+Definition at line 8 of file face\+Loop.\+cpp.
+
+\mbox{\Hypertarget{classface_loop_aa57ee2f9fd011ac4a8aa9b922998c34a}\label{classface_loop_aa57ee2f9fd011ac4a8aa9b922998c34a}} 
+\index{face\+Loop@{face\+Loop}!arrange@{arrange}}
+\index{arrange@{arrange}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{arrange()}{arrange()}}
+{\footnotesize\ttfamily void face\+Loop\+::arrange (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 48 of file face\+Loop.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classface_loop_aa57ee2f9fd011ac4a8aa9b922998c34a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classface_loop_aa57ee2f9fd011ac4a8aa9b922998c34a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classface_loop_ad8ba004157748e073c1bc7527fda627c}\label{classface_loop_ad8ba004157748e073c1bc7527fda627c}} 
+\index{face\+Loop@{face\+Loop}!get\+All\+Edges@{get\+All\+Edges}}
+\index{get\+All\+Edges@{get\+All\+Edges}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{get\+All\+Edges()}{getAllEdges()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ face\+Loop\+::get\+All\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 124 of file face\+Loop.\+cpp.
+
+\mbox{\Hypertarget{classface_loop_a3ed69fdb3554a255f484fa78fd1f3361}\label{classface_loop_a3ed69fdb3554a255f484fa78fd1f3361}} 
+\index{face\+Loop@{face\+Loop}!if\+Face\+Loop\+Contains@{if\+Face\+Loop\+Contains}}
+\index{if\+Face\+Loop\+Contains@{if\+Face\+Loop\+Contains}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{if\+Face\+Loop\+Contains()}{ifFaceLoopContains()}}
+{\footnotesize\ttfamily bool face\+Loop\+::if\+Face\+Loop\+Contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{edge }\end{DoxyParamCaption})}
+
+
+
+Definition at line 135 of file face\+Loop.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classface_loop_a3ed69fdb3554a255f484fa78fd1f3361_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classface_loop_a603c5cfde9765657af9cf088df8fc474}\label{classface_loop_a603c5cfde9765657af9cf088df8fc474}} 
+\index{face\+Loop@{face\+Loop}!operator==@{operator==}}
+\index{operator==@{operator==}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool face\+Loop\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classface_loop}{face\+Loop}}}]{other }\end{DoxyParamCaption}) const}
+
+will arrange all the \mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} such that their direction is same as that of normal 
+
+Definition at line 69 of file face\+Loop.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classface_loop_a603c5cfde9765657af9cf088df8fc474_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classface_loop_ac1c63792b00865fc45ad8934b5580e62}\label{classface_loop_ac1c63792b00865fc45ad8934b5580e62}} 
+\index{face\+Loop@{face\+Loop}!remove\+Loop@{remove\+Loop}}
+\index{remove\+Loop@{remove\+Loop}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{remove\+Loop()}{removeLoop()}}
+{\footnotesize\ttfamily void face\+Loop\+::remove\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}}}]{loop }\end{DoxyParamCaption})}
+
+
+
+Definition at line 16 of file face\+Loop.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classface_loop_a3f032bc5496c429abc4723632d29ceaf}\label{classface_loop_a3f032bc5496c429abc4723632d29ceaf}} 
+\index{face\+Loop@{face\+Loop}!faceloop@{faceloop}}
+\index{faceloop@{faceloop}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{faceloop}{faceloop}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}}$>$ face\+Loop\+::faceloop}
+
+
+
+Definition at line 20 of file face\+Loop.\+h.
+
+\mbox{\Hypertarget{classface_loop_a2ac7efac9235e5d6c6c4694f2ea8a6c2}\label{classface_loop_a2ac7efac9235e5d6c6c4694f2ea8a6c2}} 
+\index{face\+Loop@{face\+Loop}!normal@{normal}}
+\index{normal@{normal}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{normal}{normal}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structdirection}{direction}} face\+Loop\+::normal}
+
+
+
+Definition at line 21 of file face\+Loop.\+h.
+
+\mbox{\Hypertarget{classface_loop_ace3e113db57081ef98d333a5bfd32daa}\label{classface_loop_ace3e113db57081ef98d333a5bfd32daa}} 
+\index{face\+Loop@{face\+Loop}!p@{p}}
+\index{p@{p}!face\+Loop@{face\+Loop}}
+\subsubsection{\texorpdfstring{p}{p}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structplane}{plane}} face\+Loop\+::p}
+
+
+
+Definition at line 22 of file face\+Loop.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{face_loop_8h}{face\+Loop.\+h}}\item 
+src/\mbox{\hyperlink{face_loop_8cpp}{face\+Loop.\+cpp}}\end{DoxyCompactItemize}

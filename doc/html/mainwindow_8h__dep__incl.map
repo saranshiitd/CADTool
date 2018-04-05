@@ -1,0 +1,7 @@
+<map id="include/mainwindow.h" name="include/mainwindow.h">
+<area shape="rect" id="node2" href="$build_2moc__mainwindow_8cpp.html" title="build/moc_mainwindow.cpp" alt="" coords="5,79,189,104"/>
+<area shape="rect" id="node3" href="$mainwindow_8cpp.html" title="src/mainwindow.cpp" alt="" coords="214,79,354,104"/>
+<area shape="rect" id="node4" href="$src_2moc__mainwindow_8cpp.html" title="src/moc_mainwindow.cpp" alt="" coords="379,79,552,104"/>
+<area shape="rect" id="node5" href="$selection_8cpp.html" title="src/selection.cpp" alt="" coords="576,79,696,104"/>
+<area shape="rect" id="node6" href="$showprojections_8cpp.html" title="src/showprojections.cpp" alt="" coords="721,79,884,104"/>
+</map>

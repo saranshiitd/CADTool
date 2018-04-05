@@ -1,0 +1,11 @@
+<map id="wireFrame::resolveOverlap" name="wireFrame::resolveOverlap">
+<area shape="rect" id="node2" href="$wireframe_8cpp.html#aad1c8b18f92337cc3309845b6729ed41" title="findAllCollinearOverlaping\lEdges" alt="" coords="244,5,419,44"/>
+<area shape="rect" id="node7" href="$wireframe_8cpp.html#ad91963c639f7e6d3deef11b6e64e95c8" title="removeEdgesFromEdgeList" alt="" coords="238,68,425,93"/>
+<area shape="rect" id="node8" href="$wireframe_8cpp.html#ae4221de7ce26d56d50148f17fb66ef1e" title="getVerticesFromEdges" alt="" coords="254,117,410,143"/>
+<area shape="rect" id="node9" href="$namespacegeneral_methods.html#ace3487740f3b46dce9e0357366abf9ed" title="generalMethods::sortVertices" alt="" coords="235,167,429,192"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#aa7662b2bcff30f8983da23da5edfc766" title="generalMethods::checkOverlap\lCollinear" alt="" coords="477,32,683,71"/>
+<area shape="rect" id="node4" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="731,15,830,40"/>
+<area shape="rect" id="node5" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="739,64,823,89"/>
+<area shape="rect" id="node6" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="738,115,824,140"/>
+<area shape="rect" id="node10" href="$namespacegeneral_methods.html#afc8f20af710f8dc24af591015acc1403" title="generalMethods::comparePairs" alt="" coords="477,117,683,143"/>
+</map>

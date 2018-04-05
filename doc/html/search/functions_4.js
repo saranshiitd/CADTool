@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['getaface',['getAFace',['../wireframe_8cpp.html#a677e822cbc9e87b60cec292e98ff5c51',1,'wireframe.cpp']]],
-  ['getalphaanddirection',['getAlphaAndDirection',['../namespacegeneral_methods.html#acb2c7a35ffed7d34eff248b9d99aaa6b',1,'generalMethods']]],
-  ['getnoncollinearedge',['getNonCollinearEdge',['../wireframe_8cpp.html#aed5a5846f1e26671660533d2b534dfb1',1,'wireframe.cpp']]],
-  ['getnoncollinearedge4',['getNonCollinearEdge4',['../wireframe_8cpp.html#a124c74bf5001443bb6999cceea113b31',1,'wireframe.cpp']]],
-  ['getremovedvertexedge',['getRemovedVertexEdge',['../wireframe_8cpp.html#a398369c1be621c8af04a476db74e0bf7',1,'wireframe.cpp']]],
-  ['getreversedfaceloop',['getReversedFaceLoop',['../namespacegeneral_methods.html#afe4087e253b318326a0a1578d34b42ca',1,'generalMethods']]],
-  ['getverticesfromedges',['getVerticesFromEdges',['../wireframe_8cpp.html#ae4221de7ce26d56d50148f17fb66ef1e',1,'wireframe.cpp']]]
+  ['findadjacentedgesatvertexfromplanevel',['findAdjacentEdgesAtVertexFromplaneVEL',['../wireframe_8cpp.html#aafecbe11a654b4401097afff04cd3230',1,'wireframe.cpp']]],
+  ['findallcollinearoverlapingedges',['findAllCollinearOverlapingEdges',['../wireframe_8cpp.html#aad1c8b18f92337cc3309845b6729ed41',1,'wireframe.cpp']]],
+  ['findangle',['findAngle',['../_plane_8h.html#a41b3f23bbae2d530aafc33c3d82b19d2',1,'findAngle(edge3D refEdge, edge3D otherEdge, vertex3D refVertex, plane p):&#160;Plane.cpp'],['../_plane_8cpp.html#a41b3f23bbae2d530aafc33c3d82b19d2',1,'findAngle(edge3D refEdge, edge3D otherEdge, vertex3D refVertex, plane p):&#160;Plane.cpp']]],
+  ['finddistancebetweenplanes',['findDistanceBetweenPlanes',['../namespacegeneral_methods.html#a3bc88a001e751ad419e87bf3795ca02b',1,'generalMethods']]],
+  ['findedgesonplane',['findEdgesOnPlane',['../namespacegeneral_methods.html#a9bff72be73e4d6faec798a23b8f28cb9',1,'generalMethods']]],
+  ['findnextedge',['findNextEdge',['../wireframe_8cpp.html#a3823276844aae82a44b66af0e13a855c',1,'wireframe.cpp']]],
+  ['findverticesonplane',['findVerticesOnPlane',['../namespacegeneral_methods.html#aa0669678cf59876e3249ddce7a0d1ce3',1,'generalMethods']]],
+  ['firstloop',['firstLoop',['../wireframe_8cpp.html#affeeaff0f8b7e425a890992a46226bce',1,'wireframe.cpp']]]
 ];

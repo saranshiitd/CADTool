@@ -1,0 +1,117 @@
+\hypertarget{class_plane}{}\section{Plane Class Reference}
+\label{class_plane}\index{Plane@{Plane}}
+
+
+{\ttfamily \#include $<$Plane.\+h$>$}
+
+
+
+Collaboration diagram for Plane\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_plane__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_plane_ad2708bd985955c7f978a191f4e9249ac}{sort\+Edges\+On\+Vertices}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structplane}{plane}} \mbox{\hyperlink{class_plane_a65c157cab5de9f5c3c1ecd5b7770badc}{p}}
+\begin{DoxyCompactList}\small\item\em struct plane that defines a plane \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{class_plane_a9badd6fb24525ce9605a3f6a5bb0d770}{v\+List}}
+\begin{DoxyCompactList}\small\item\em list of all vertices on the plane \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{class_plane_a71c027d1ed3593af105dcbdee9e1b11f}{e\+List}}
+\begin{DoxyCompactList}\small\item\em list of all edges on the plane \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} $>$ \mbox{\hyperlink{class_plane_a83494ec7ac0ca05a7fb8e8340c3a99fc}{ve\+List\+List}}
+\begin{DoxyCompactList}\small\item\em list of vetex-\/edges\+On\+Vertex for all vertices on the plane \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file Plane.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_plane_ad2708bd985955c7f978a191f4e9249ac}\label{class_plane_ad2708bd985955c7f978a191f4e9249ac}} 
+\index{Plane@{Plane}!sort\+Edges\+On\+Vertices@{sort\+Edges\+On\+Vertices}}
+\index{sort\+Edges\+On\+Vertices@{sort\+Edges\+On\+Vertices}!Plane@{Plane}}
+\subsubsection{\texorpdfstring{sort\+Edges\+On\+Vertices()}{sortEdgesOnVertices()}}
+{\footnotesize\ttfamily void Plane\+::sort\+Edges\+On\+Vertices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+applies the method sort\+Edges\+On\+Vertex on each vertex of a plane just modifies the \char`\"{}std\+::vector$<$vertex\+Edge\+List$>$ ve\+List\char`\"{} with edges sorted on each vertex 
+
+Definition at line 68 of file Plane.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_plane_a71c027d1ed3593af105dcbdee9e1b11f}\label{class_plane_a71c027d1ed3593af105dcbdee9e1b11f}} 
+\index{Plane@{Plane}!e\+List@{e\+List}}
+\index{e\+List@{e\+List}!Plane@{Plane}}
+\subsubsection{\texorpdfstring{e\+List}{eList}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structedge3_d}{edge3D}}$>$ Plane\+::e\+List}
+
+
+
+list of all edges on the plane 
+
+
+
+Definition at line 21 of file Plane.\+h.
+
+\mbox{\Hypertarget{class_plane_a65c157cab5de9f5c3c1ecd5b7770badc}\label{class_plane_a65c157cab5de9f5c3c1ecd5b7770badc}} 
+\index{Plane@{Plane}!p@{p}}
+\index{p@{p}!Plane@{Plane}}
+\subsubsection{\texorpdfstring{p}{p}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structplane}{plane}} Plane\+::p}
+
+
+
+struct plane that defines a plane 
+
+
+
+Definition at line 15 of file Plane.\+h.
+
+\mbox{\Hypertarget{class_plane_a83494ec7ac0ca05a7fb8e8340c3a99fc}\label{class_plane_a83494ec7ac0ca05a7fb8e8340c3a99fc}} 
+\index{Plane@{Plane}!ve\+List\+List@{ve\+List\+List}}
+\index{ve\+List\+List@{ve\+List\+List}!Plane@{Plane}}
+\subsubsection{\texorpdfstring{ve\+List\+List}{veListList}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}}$>$ Plane\+::ve\+List\+List}
+
+
+
+list of vetex-\/edges\+On\+Vertex for all vertices on the plane 
+
+
+
+Definition at line 24 of file Plane.\+h.
+
+\mbox{\Hypertarget{class_plane_a9badd6fb24525ce9605a3f6a5bb0d770}\label{class_plane_a9badd6fb24525ce9605a3f6a5bb0d770}} 
+\index{Plane@{Plane}!v\+List@{v\+List}}
+\index{v\+List@{v\+List}!Plane@{Plane}}
+\subsubsection{\texorpdfstring{v\+List}{vList}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ Plane\+::v\+List}
+
+
+
+list of all vertices on the plane 
+
+
+
+Definition at line 18 of file Plane.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_plane_8h}{Plane.\+h}}\item 
+src/\mbox{\hyperlink{_plane_8cpp}{Plane.\+cpp}}\end{DoxyCompactItemize}

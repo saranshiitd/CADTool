@@ -1,0 +1,599 @@
+\hypertarget{classwire_frame}{}\section{wire\+Frame Class Reference}
+\label{classwire_frame}\index{wire\+Frame@{wire\+Frame}}
+
+
+{\ttfamily \#include $<$wireframe.\+h$>$}
+
+
+
+Collaboration diagram for wire\+Frame\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{classwire_frame__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classwire_frame_ad31eeecbba164e703cd67ea11c13df51}{generate\+Wire\+Frame}} (\mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}} v\+\_\+listF, \mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}} v\+\_\+listT, \mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}} v\+\_\+listS, \mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}} e\+\_\+listF, \mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}} e\+\_\+listT, \mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}} e\+\_\+listS)
+\begin{DoxyCompactList}\small\item\em data structures inside wireframe class \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classwire_frame_a34148f5947e3d44f74650bb88c532905}{print\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} i)
+\begin{DoxyCompactList}\small\item\em print function for wireframe \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classwire_frame_a1f30c3a4320bb7016abedab3a1cf18d5}{print\+Vertices}} ()
+\item 
+string \mbox{\hyperlink{classwire_frame_aa90f66614bc9fe0616cc433d593f0241}{get\+Vertices}} ()
+\item 
+string \mbox{\hyperlink{classwire_frame_adafc56f2ed107ea6d8449da17cc9f39b}{get\+Body}} ()
+\item 
+void \mbox{\hyperlink{classwire_frame_a0d08d6195d840341525651ec6d598408}{print\+Edges}} ()
+\item 
+void \mbox{\hyperlink{classwire_frame_a1241bc0d6c1edf1d3ddb5fa8440b8bcb}{print\+Planes}} ()
+\item 
+void \mbox{\hyperlink{classwire_frame_a7c89bdfbf8e94eb33f90d6057f785cd9}{print\+Face\+Loops}} ()
+\item 
+void \mbox{\hyperlink{classwire_frame_ae4675da9bff33c6b78b9c0036f6f5b0e}{add\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v)
+\item 
+void \mbox{\hyperlink{classwire_frame_a8b4634def9827d37ae165dbeec1363e7}{remove\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v)
+\item 
+void \mbox{\hyperlink{classwire_frame_ac743b6520445f5e1e90a760847d47666}{add\+Edge}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v1, \mbox{\hyperlink{structvertex3_d}{vertex3D}} v2)
+\item 
+void \mbox{\hyperlink{classwire_frame_a63d72eec6ac26bb6d07d0662a936070a}{add\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} e)
+\item 
+void \mbox{\hyperlink{classwire_frame_ada138a38cdece351080b0967605bd0ca}{remove\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} e)
+\item 
+void \mbox{\hyperlink{classwire_frame_ad1410339bc0716c4d2ca39f331923b42}{remove\+Edges}} (vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ e\+List)
+\item 
+void \mbox{\hyperlink{classwire_frame_adaca5f3e21a232ad7eef8135b2e470dd}{resolve\+Overlap}} ()
+\begin{DoxyCompactList}\small\item\em remove all overlapping edges and insert non-\/overlapping edges in place of them \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classwire_frame_a14535da73afb6388a89fb3c645ba5d18}{sort\+Vertices}} (vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ v\+List, \mbox{\hyperlink{structedge3_d}{edge3D}} e)
+\item 
+int \mbox{\hyperlink{classwire_frame_a0843bbf4ca224f42f9191ef5b1263c36}{number\+Of\+Edges\+At\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v)
+\item 
+\mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} \mbox{\hyperlink{classwire_frame_ae67d78b40bd171b508f9d5575121aab6}{adj\+Edges\+At\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v)
+\item 
+vector$<$ \mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} $>$ \mbox{\hyperlink{classwire_frame_a06a9b12235430a64bfb612ea2697bf4c}{adj\+Edges\+At\+Vertex\+List}} (vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ v\+List)
+\item 
+void \mbox{\hyperlink{classwire_frame_a3799d04d265a08d30e06d5d18facd04d}{procedure\+P\+E\+VR}} ()
+\item 
+\mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} \mbox{\hyperlink{classwire_frame_a717d472ad2f30ef43e26258794a944e7}{adj\+Edges\+At\+Vertex\+Plane}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v, std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ edges)
+\item 
+\mbox{\hyperlink{structplane_v_e_l}{plane\+V\+EL}} \mbox{\hyperlink{classwire_frame_acdcde71a2d420de040065d6db4ad334d}{get\+V\+E\+List\+On\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p)
+\item 
+void \mbox{\hyperlink{classwire_frame_ac5c8d8c3b1b5f693ad46cb54aae1108a}{generate\+Face\+Loops}} ()
+\item 
+vector$<$ \mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} $>$ \mbox{\hyperlink{classwire_frame_ad570a0e37cc761e789d101904c64ef1a}{generate\+Basic\+Loops\+On\+Plane}} (\mbox{\hyperlink{structplane_v_e_l}{plane\+V\+EL}} pvel, vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ edges\+On\+Plane)
+\item 
+void \mbox{\hyperlink{classwire_frame_a114f0cea254a8845bf5e999503dfcdec}{generate\+Body\+Loops}} ()
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classwire_frame_aff23ae34c3bab0a3a4b6967e4b955ecb}{get\+Face\+Loops\+Containing\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} ref\+Edge, \mbox{\hyperlink{classface_loop}{face\+Loop}} fl)
+\item 
+void \mbox{\hyperlink{classwire_frame_a4a14c6a4043acfaba2a7122daaf925e6}{reverse\+Face\+Loops}} ()
+\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$ \mbox{\hyperlink{classwire_frame_a1abdffd7d1d696252685617b63a4126c}{getfaces}} ()
+\item 
+void \mbox{\hyperlink{classwire_frame_a66a5ed6072911c6746366c6cadee7f36}{generate\+Full\+Body}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{classwire_frame_aa70e800c97cd01d6ae3e93246a5cbae7}{vertex\+List}}
+\item 
+vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{classwire_frame_af9b75331150dbb28588ae24a8d6ecf52}{edge\+List}}
+\item 
+vector$<$ \mbox{\hyperlink{structplane}{plane}} $>$ \mbox{\hyperlink{classwire_frame_aa1e3ca4f8822ffc02447f9ba92542698}{planes}}
+\item 
+vector$<$ \mbox{\hyperlink{classface_loop}{face\+Loop}} $>$ \mbox{\hyperlink{classwire_frame_a443c6e0a6695cd71527edfeff03ae7e6}{faceloops}}
+\item 
+\mbox{\hyperlink{classbody_loop}{body\+Loop}} \mbox{\hyperlink{classwire_frame_a21133365b1a54c197741351a16a4e061}{body}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file wireframe.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classwire_frame_ac743b6520445f5e1e90a760847d47666}\label{classwire_frame_ac743b6520445f5e1e90a760847d47666}} 
+\index{wire\+Frame@{wire\+Frame}!add\+Edge@{add\+Edge}}
+\index{add\+Edge@{add\+Edge}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{add\+Edge()}{addEdge()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void wire\+Frame\+::add\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v1,  }\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 328 of file wireframe.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ac743b6520445f5e1e90a760847d47666_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a63d72eec6ac26bb6d07d0662a936070a}\label{classwire_frame_a63d72eec6ac26bb6d07d0662a936070a}} 
+\index{wire\+Frame@{wire\+Frame}!add\+Edge@{add\+Edge}}
+\index{add\+Edge@{add\+Edge}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{add\+Edge()}{addEdge()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void wire\+Frame\+::add\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{e }\end{DoxyParamCaption})}
+
+
+
+Definition at line 338 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_ae4675da9bff33c6b78b9c0036f6f5b0e}\label{classwire_frame_ae4675da9bff33c6b78b9c0036f6f5b0e}} 
+\index{wire\+Frame@{wire\+Frame}!add\+Vertex@{add\+Vertex}}
+\index{add\+Vertex@{add\+Vertex}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{add\+Vertex()}{addVertex()}}
+{\footnotesize\ttfamily void wire\+Frame\+::add\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v }\end{DoxyParamCaption})}
+
+add/remove vertex and edge to wireframe 
+
+Definition at line 307 of file wireframe.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ae4675da9bff33c6b78b9c0036f6f5b0e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_ae67d78b40bd171b508f9d5575121aab6}\label{classwire_frame_ae67d78b40bd171b508f9d5575121aab6}} 
+\index{wire\+Frame@{wire\+Frame}!adj\+Edges\+At\+Vertex@{adj\+Edges\+At\+Vertex}}
+\index{adj\+Edges\+At\+Vertex@{adj\+Edges\+At\+Vertex}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{adj\+Edges\+At\+Vertex()}{adjEdgesAtVertex()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} wire\+Frame\+::adj\+Edges\+At\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v }\end{DoxyParamCaption})}
+
+takes a vertex and returns a struct of adjacent edges at the vertex\textquotesingle{} 
+
+Definition at line 661 of file wireframe.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ae67d78b40bd171b508f9d5575121aab6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a06a9b12235430a64bfb612ea2697bf4c}\label{classwire_frame_a06a9b12235430a64bfb612ea2697bf4c}} 
+\index{wire\+Frame@{wire\+Frame}!adj\+Edges\+At\+Vertex\+List@{adj\+Edges\+At\+Vertex\+List}}
+\index{adj\+Edges\+At\+Vertex\+List@{adj\+Edges\+At\+Vertex\+List}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{adj\+Edges\+At\+Vertex\+List()}{adjEdgesAtVertexList()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} $>$ wire\+Frame\+::adj\+Edges\+At\+Vertex\+List (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{v\+List }\end{DoxyParamCaption})}
+
+takes a vertex\+List and returns a list of \textquotesingle{}adjacent edges at each vertex\textquotesingle{} 
+
+Definition at line 687 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a06a9b12235430a64bfb612ea2697bf4c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a717d472ad2f30ef43e26258794a944e7}\label{classwire_frame_a717d472ad2f30ef43e26258794a944e7}} 
+\index{wire\+Frame@{wire\+Frame}!adj\+Edges\+At\+Vertex\+Plane@{adj\+Edges\+At\+Vertex\+Plane}}
+\index{adj\+Edges\+At\+Vertex\+Plane@{adj\+Edges\+At\+Vertex\+Plane}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{adj\+Edges\+At\+Vertex\+Plane()}{adjEdgesAtVertexPlane()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} wire\+Frame\+::adj\+Edges\+At\+Vertex\+Plane (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$}]{edges }\end{DoxyParamCaption})}
+
+
+
+Definition at line 675 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_ad570a0e37cc761e789d101904c64ef1a}\label{classwire_frame_ad570a0e37cc761e789d101904c64ef1a}} 
+\index{wire\+Frame@{wire\+Frame}!generate\+Basic\+Loops\+On\+Plane@{generate\+Basic\+Loops\+On\+Plane}}
+\index{generate\+Basic\+Loops\+On\+Plane@{generate\+Basic\+Loops\+On\+Plane}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{generate\+Basic\+Loops\+On\+Plane()}{generateBasicLoopsOnPlane()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} $>$ wire\+Frame\+::generate\+Basic\+Loops\+On\+Plane (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structplane_v_e_l}{plane\+V\+EL}}}]{pvel,  }\item[{vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$}]{edges\+On\+Plane }\end{DoxyParamCaption})}
+
+
+
+Definition at line 797 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ad570a0e37cc761e789d101904c64ef1a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a114f0cea254a8845bf5e999503dfcdec}\label{classwire_frame_a114f0cea254a8845bf5e999503dfcdec}} 
+\index{wire\+Frame@{wire\+Frame}!generate\+Body\+Loops@{generate\+Body\+Loops}}
+\index{generate\+Body\+Loops@{generate\+Body\+Loops}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{generate\+Body\+Loops()}{generateBodyLoops()}}
+{\footnotesize\ttfamily void wire\+Frame\+::generate\+Body\+Loops (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1012 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a114f0cea254a8845bf5e999503dfcdec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_ac5c8d8c3b1b5f693ad46cb54aae1108a}\label{classwire_frame_ac5c8d8c3b1b5f693ad46cb54aae1108a}} 
+\index{wire\+Frame@{wire\+Frame}!generate\+Face\+Loops@{generate\+Face\+Loops}}
+\index{generate\+Face\+Loops@{generate\+Face\+Loops}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{generate\+Face\+Loops()}{generateFaceLoops()}}
+{\footnotesize\ttfamily void wire\+Frame\+::generate\+Face\+Loops (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+check if edges overlap and collinear ~\newline
+check edges coplanar 
+
+Definition at line 1165 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ac5c8d8c3b1b5f693ad46cb54aae1108a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a66a5ed6072911c6746366c6cadee7f36}\label{classwire_frame_a66a5ed6072911c6746366c6cadee7f36}} 
+\index{wire\+Frame@{wire\+Frame}!generate\+Full\+Body@{generate\+Full\+Body}}
+\index{generate\+Full\+Body@{generate\+Full\+Body}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{generate\+Full\+Body()}{generateFullBody()}}
+{\footnotesize\ttfamily void wire\+Frame\+::generate\+Full\+Body (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 84 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_ad31eeecbba164e703cd67ea11c13df51}\label{classwire_frame_ad31eeecbba164e703cd67ea11c13df51}} 
+\index{wire\+Frame@{wire\+Frame}!generate\+Wire\+Frame@{generate\+Wire\+Frame}}
+\index{generate\+Wire\+Frame@{generate\+Wire\+Frame}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{generate\+Wire\+Frame()}{generateWireFrame()}}
+{\footnotesize\ttfamily void wire\+Frame\+::generate\+Wire\+Frame (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}}}]{v\+\_\+listF,  }\item[{\mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}}}]{v\+\_\+listT,  }\item[{\mbox{\hyperlink{class_vertex_list2_d}{Vertex\+List2D}}}]{v\+\_\+listS,  }\item[{\mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}}}]{e\+\_\+listF,  }\item[{\mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}}}]{e\+\_\+listT,  }\item[{\mbox{\hyperlink{class_edge_list2_d}{Edge\+List2D}}}]{e\+\_\+listS }\end{DoxyParamCaption})}
+
+
+
+data structures inside wireframe class 
+
+generate wireframe form 3 vertices list --$>$ front, top, side and from three edges list --$>$ front, top side gernerate vertices, edges, faces and face\+Loops
+
+old convention top --$>$ (x, y, 0) front -\/$>$ (0, y, z) side -\/$>$. (x, 0, z) new convention top --$>$ (x, y, 0) front -\/$>$ (x, 0, z) side -\/$>$. (0, y, z) choose a vertex from each projection and match its coordinates with those form other views --$>$ if thet match --$>$ a 3D vertex is found
+
+Definition at line 39 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_ad31eeecbba164e703cd67ea11c13df51_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_adafc56f2ed107ea6d8449da17cc9f39b}\label{classwire_frame_adafc56f2ed107ea6d8449da17cc9f39b}} 
+\index{wire\+Frame@{wire\+Frame}!get\+Body@{get\+Body}}
+\index{get\+Body@{get\+Body}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{get\+Body()}{getBody()}}
+{\footnotesize\ttfamily string wire\+Frame\+::get\+Body (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 215 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{classwire_frame_adafc56f2ed107ea6d8449da17cc9f39b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_aff23ae34c3bab0a3a4b6967e4b955ecb}\label{classwire_frame_aff23ae34c3bab0a3a4b6967e4b955ecb}} 
+\index{wire\+Frame@{wire\+Frame}!get\+Face\+Loops\+Containing\+Edge@{get\+Face\+Loops\+Containing\+Edge}}
+\index{get\+Face\+Loops\+Containing\+Edge@{get\+Face\+Loops\+Containing\+Edge}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{get\+Face\+Loops\+Containing\+Edge()}{getFaceLoopsContainingEdge()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ wire\+Frame\+::get\+Face\+Loops\+Containing\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{ref\+Edge,  }\item[{\mbox{\hyperlink{classface_loop}{face\+Loop}}}]{fl }\end{DoxyParamCaption})}
+
+
+
+Definition at line 933 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_aff23ae34c3bab0a3a4b6967e4b955ecb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a1abdffd7d1d696252685617b63a4126c}\label{classwire_frame_a1abdffd7d1d696252685617b63a4126c}} 
+\index{wire\+Frame@{wire\+Frame}!getfaces@{getfaces}}
+\index{getfaces@{getfaces}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{getfaces()}{getfaces()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ $>$ wire\+Frame\+::getfaces (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1620 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_acdcde71a2d420de040065d6db4ad334d}\label{classwire_frame_acdcde71a2d420de040065d6db4ad334d}} 
+\index{wire\+Frame@{wire\+Frame}!get\+V\+E\+List\+On\+Plane@{get\+V\+E\+List\+On\+Plane}}
+\index{get\+V\+E\+List\+On\+Plane@{get\+V\+E\+List\+On\+Plane}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{get\+V\+E\+List\+On\+Plane()}{getVEListOnPlane()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structplane_v_e_l}{plane\+V\+EL}} wire\+Frame\+::get\+V\+E\+List\+On\+Plane (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structplane}{plane}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 881 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_acdcde71a2d420de040065d6db4ad334d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_aa90f66614bc9fe0616cc433d593f0241}\label{classwire_frame_aa90f66614bc9fe0616cc433d593f0241}} 
+\index{wire\+Frame@{wire\+Frame}!get\+Vertices@{get\+Vertices}}
+\index{get\+Vertices@{get\+Vertices}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{get\+Vertices()}{getVertices()}}
+{\footnotesize\ttfamily string wire\+Frame\+::get\+Vertices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+print the vertex\+List
+
+Definition at line 165 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_a0843bbf4ca224f42f9191ef5b1263c36}\label{classwire_frame_a0843bbf4ca224f42f9191ef5b1263c36}} 
+\index{wire\+Frame@{wire\+Frame}!number\+Of\+Edges\+At\+Vertex@{number\+Of\+Edges\+At\+Vertex}}
+\index{number\+Of\+Edges\+At\+Vertex@{number\+Of\+Edges\+At\+Vertex}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{number\+Of\+Edges\+At\+Vertex()}{numberOfEdgesAtVertex()}}
+{\footnotesize\ttfamily int wire\+Frame\+::number\+Of\+Edges\+At\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v }\end{DoxyParamCaption})}
+
+returns the number of edges shared at vertex v 
+
+Definition at line 649 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_a0d08d6195d840341525651ec6d598408}\label{classwire_frame_a0d08d6195d840341525651ec6d598408}} 
+\index{wire\+Frame@{wire\+Frame}!print\+Edges@{print\+Edges}}
+\index{print\+Edges@{print\+Edges}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{print\+Edges()}{printEdges()}}
+{\footnotesize\ttfamily void wire\+Frame\+::print\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+print the edge\+List
+
+Definition at line 268 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a0d08d6195d840341525651ec6d598408_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a7c89bdfbf8e94eb33f90d6057f785cd9}\label{classwire_frame_a7c89bdfbf8e94eb33f90d6057f785cd9}} 
+\index{wire\+Frame@{wire\+Frame}!print\+Face\+Loops@{print\+Face\+Loops}}
+\index{print\+Face\+Loops@{print\+Face\+Loops}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{print\+Face\+Loops()}{printFaceLoops()}}
+{\footnotesize\ttfamily void wire\+Frame\+::print\+Face\+Loops (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 285 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a7c89bdfbf8e94eb33f90d6057f785cd9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a1241bc0d6c1edf1d3ddb5fa8440b8bcb}\label{classwire_frame_a1241bc0d6c1edf1d3ddb5fa8440b8bcb}} 
+\index{wire\+Frame@{wire\+Frame}!print\+Planes@{print\+Planes}}
+\index{print\+Planes@{print\+Planes}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{print\+Planes()}{printPlanes()}}
+{\footnotesize\ttfamily void wire\+Frame\+::print\+Planes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 278 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_a34148f5947e3d44f74650bb88c532905}\label{classwire_frame_a34148f5947e3d44f74650bb88c532905}} 
+\index{wire\+Frame@{wire\+Frame}!print\+Vertex@{print\+Vertex}}
+\index{print\+Vertex@{print\+Vertex}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{print\+Vertex()}{printVertex()}}
+{\footnotesize\ttfamily void wire\+Frame\+::print\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{i }\end{DoxyParamCaption})}
+
+
+
+print function for wireframe 
+
+
+
+Definition at line 149 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_a1f30c3a4320bb7016abedab3a1cf18d5}\label{classwire_frame_a1f30c3a4320bb7016abedab3a1cf18d5}} 
+\index{wire\+Frame@{wire\+Frame}!print\+Vertices@{print\+Vertices}}
+\index{print\+Vertices@{print\+Vertices}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{print\+Vertices()}{printVertices()}}
+{\footnotesize\ttfamily void wire\+Frame\+::print\+Vertices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+print the vertex\+List
+
+Definition at line 153 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a1f30c3a4320bb7016abedab3a1cf18d5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a3799d04d265a08d30e06d5d18facd04d}\label{classwire_frame_a3799d04d265a08d30e06d5d18facd04d}} 
+\index{wire\+Frame@{wire\+Frame}!procedure\+P\+E\+VR@{procedure\+P\+E\+VR}}
+\index{procedure\+P\+E\+VR@{procedure\+P\+E\+VR}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{procedure\+P\+E\+V\+R()}{procedurePEVR()}}
+{\footnotesize\ttfamily void wire\+Frame\+::procedure\+P\+E\+VR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+this method to perform procedure P\+E\+VR adss given in paper 
+
+Definition at line 570 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a3799d04d265a08d30e06d5d18facd04d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_ada138a38cdece351080b0967605bd0ca}\label{classwire_frame_ada138a38cdece351080b0967605bd0ca}} 
+\index{wire\+Frame@{wire\+Frame}!remove\+Edge@{remove\+Edge}}
+\index{remove\+Edge@{remove\+Edge}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{remove\+Edge()}{removeEdge()}}
+{\footnotesize\ttfamily void wire\+Frame\+::remove\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{e }\end{DoxyParamCaption})}
+
+removes a edge from edge\+List
+
+Definition at line 345 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_ad1410339bc0716c4d2ca39f331923b42}\label{classwire_frame_ad1410339bc0716c4d2ca39f331923b42}} 
+\index{wire\+Frame@{wire\+Frame}!remove\+Edges@{remove\+Edges}}
+\index{remove\+Edges@{remove\+Edges}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{remove\+Edges()}{removeEdges()}}
+{\footnotesize\ttfamily void wire\+Frame\+::remove\+Edges (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$}]{e\+List }\end{DoxyParamCaption})}
+
+removes edges from edge\+List
+
+Definition at line 357 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_a8b4634def9827d37ae165dbeec1363e7}\label{classwire_frame_a8b4634def9827d37ae165dbeec1363e7}} 
+\index{wire\+Frame@{wire\+Frame}!remove\+Vertex@{remove\+Vertex}}
+\index{remove\+Vertex@{remove\+Vertex}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{remove\+Vertex()}{removeVertex()}}
+{\footnotesize\ttfamily void wire\+Frame\+::remove\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structvertex3_d}{vertex3D}}}]{v }\end{DoxyParamCaption})}
+
+removes a vertex to vertex\+List
+
+Definition at line 316 of file wireframe.\+cpp.
+
+\mbox{\Hypertarget{classwire_frame_adaca5f3e21a232ad7eef8135b2e470dd}\label{classwire_frame_adaca5f3e21a232ad7eef8135b2e470dd}} 
+\index{wire\+Frame@{wire\+Frame}!resolve\+Overlap@{resolve\+Overlap}}
+\index{resolve\+Overlap@{resolve\+Overlap}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{resolve\+Overlap()}{resolveOverlap()}}
+{\footnotesize\ttfamily void wire\+Frame\+::resolve\+Overlap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+remove all overlapping edges and insert non-\/overlapping edges in place of them 
+
+it could be just an edge ~\newline
+~\newline
+apply process P\+E\+VR at the end of it ~\newline
+perform provedure R\+ER as in paper 
+
+Definition at line 420 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_adaca5f3e21a232ad7eef8135b2e470dd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a4a14c6a4043acfaba2a7122daaf925e6}\label{classwire_frame_a4a14c6a4043acfaba2a7122daaf925e6}} 
+\index{wire\+Frame@{wire\+Frame}!reverse\+Face\+Loops@{reverse\+Face\+Loops}}
+\index{reverse\+Face\+Loops@{reverse\+Face\+Loops}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{reverse\+Face\+Loops()}{reverseFaceLoops()}}
+{\footnotesize\ttfamily void wire\+Frame\+::reverse\+Face\+Loops (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+choose a vertex from each projection and match its coordinates with those form other views --$>$ if thet match --$>$ a 3D vertex is found 
+
+Definition at line 142 of file wireframe.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classwire_frame_a4a14c6a4043acfaba2a7122daaf925e6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classwire_frame_a14535da73afb6388a89fb3c645ba5d18}\label{classwire_frame_a14535da73afb6388a89fb3c645ba5d18}} 
+\index{wire\+Frame@{wire\+Frame}!sort\+Vertices@{sort\+Vertices}}
+\index{sort\+Vertices@{sort\+Vertices}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{sort\+Vertices()}{sortVertices()}}
+{\footnotesize\ttfamily void wire\+Frame\+::sort\+Vertices (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$}]{v\+List,  }\item[{\mbox{\hyperlink{structedge3_d}{edge3D}}}]{e }\end{DoxyParamCaption})}
+
+sort the vertices of a list with respect to the give edge (helper function for resolve\+Overlap) 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classwire_frame_a21133365b1a54c197741351a16a4e061}\label{classwire_frame_a21133365b1a54c197741351a16a4e061}} 
+\index{wire\+Frame@{wire\+Frame}!body@{body}}
+\index{body@{body}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{body}{body}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classbody_loop}{body\+Loop}} wire\+Frame\+::body}
+
+
+
+Definition at line 30 of file wireframe.\+h.
+
+\mbox{\Hypertarget{classwire_frame_af9b75331150dbb28588ae24a8d6ecf52}\label{classwire_frame_af9b75331150dbb28588ae24a8d6ecf52}} 
+\index{wire\+Frame@{wire\+Frame}!edge\+List@{edge\+List}}
+\index{edge\+List@{edge\+List}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{edge\+List}{edgeList}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{structedge3_d}{edge3D}}$>$ wire\+Frame\+::edge\+List}
+
+
+
+Definition at line 19 of file wireframe.\+h.
+
+\mbox{\Hypertarget{classwire_frame_a443c6e0a6695cd71527edfeff03ae7e6}\label{classwire_frame_a443c6e0a6695cd71527edfeff03ae7e6}} 
+\index{wire\+Frame@{wire\+Frame}!faceloops@{faceloops}}
+\index{faceloops@{faceloops}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{faceloops}{faceloops}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classface_loop}{face\+Loop}}$>$ wire\+Frame\+::faceloops}
+
+
+
+Definition at line 22 of file wireframe.\+h.
+
+\mbox{\Hypertarget{classwire_frame_aa1e3ca4f8822ffc02447f9ba92542698}\label{classwire_frame_aa1e3ca4f8822ffc02447f9ba92542698}} 
+\index{wire\+Frame@{wire\+Frame}!planes@{planes}}
+\index{planes@{planes}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{planes}{planes}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{structplane}{plane}}$>$ wire\+Frame\+::planes}
+
+
+
+Definition at line 21 of file wireframe.\+h.
+
+\mbox{\Hypertarget{classwire_frame_aa70e800c97cd01d6ae3e93246a5cbae7}\label{classwire_frame_aa70e800c97cd01d6ae3e93246a5cbae7}} 
+\index{wire\+Frame@{wire\+Frame}!vertex\+List@{vertex\+List}}
+\index{vertex\+List@{vertex\+List}!wire\+Frame@{wire\+Frame}}
+\subsubsection{\texorpdfstring{vertex\+List}{vertexList}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{structvertex3_d}{vertex3D}}$>$ wire\+Frame\+::vertex\+List}
+
+
+
+Definition at line 18 of file wireframe.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{wireframe_8h}{wireframe.\+h}}\item 
+src/\mbox{\hyperlink{wireframe_8cpp}{wireframe.\+cpp}}\end{DoxyCompactItemize}

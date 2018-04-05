@@ -24,6 +24,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "CADTool", "index.html", [
+    [ "CAD Module", "md__readme.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -34,8 +35,10 @@ var NAVTREE =
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
@@ -53,7 +56,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_edge_list2_d_8cpp.html"
+"_edge_list2_d_8cpp.html",
+"face_loop_8h_source.html",
+"wireframe_8cpp.html#a85d71c2c63527ae6f7cb0157ea686efb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

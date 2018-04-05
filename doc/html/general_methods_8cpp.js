@@ -8,9 +8,9 @@ var general_methods_8cpp =
     [ "comparePairs", "general_methods_8cpp.html#afc8f20af710f8dc24af591015acc1403", null ],
     [ "doIntersect", "general_methods_8cpp.html#a56efd049c58aae30a7b0caf39beab615", null ],
     [ "findDistanceBetweenPlanes", "general_methods_8cpp.html#a3bc88a001e751ad419e87bf3795ca02b", null ],
-    [ "findEdgesOnPlane", "general_methods_8cpp.html#abf0a07083176ad5167f5ed4c89b5c5cb", null ],
-    [ "findVerticesOnPlane", "general_methods_8cpp.html#acc1b72abf045cf0d466f2829134e7d66", null ],
-    [ "getAlphaAndDirection", "general_methods_8cpp.html#acb2c7a35ffed7d34eff248b9d99aaa6b", null ],
+    [ "findEdgesOnPlane", "general_methods_8cpp.html#a9bff72be73e4d6faec798a23b8f28cb9", null ],
+    [ "findVerticesOnPlane", "general_methods_8cpp.html#aa0669678cf59876e3249ddce7a0d1ce3", null ],
+    [ "getAlphaAndDirection", "general_methods_8cpp.html#a0bd9c59442b6f9c7fd3ae00832ee30df", null ],
     [ "getReversedFaceLoop", "general_methods_8cpp.html#afe4087e253b318326a0a1578d34b42ca", null ],
     [ "ifEdgeOnPlane", "general_methods_8cpp.html#a21d2e8c181e8cac3762d9ca1871d2168", null ],
     [ "ifVertexOnPlane", "general_methods_8cpp.html#a330682bb45234d8de5228a7607d493d2", null ],
@@ -21,12 +21,12 @@ var general_methods_8cpp =
     [ "planeEqual", "general_methods_8cpp.html#a3c49599a5ba8f2c41f2ef542bde19765", null ],
     [ "printEdge", "general_methods_8cpp.html#af9a1c28dacf89e746b51916fe178ce1a", null ],
     [ "printEdgeList", "general_methods_8cpp.html#ab6b6f8a5d92b39ead6c97ec0917b75a4", null ],
-    [ "printPlane", "general_methods_8cpp.html#a2decb2a442ba211e255e3b212f6ee041", null ],
+    [ "printPlane", "general_methods_8cpp.html#a3474d24f9f545407bb5f73250a5e19d7", null ],
     [ "printPlanes", "general_methods_8cpp.html#aa7c9b8abc94ae6b08d2cf083a08eaf21", null ],
     [ "printplaneVEL", "general_methods_8cpp.html#adc8e104a2f2ed35a22be9a68051ec38d", null ],
     [ "printVEList", "general_methods_8cpp.html#a60a9e0ba058824389fc703dc2dbbb7e3", null ],
     [ "printVertex", "general_methods_8cpp.html#a694306c7472ee1bbfb3c90c0f3d5453a", null ],
     [ "printVerticesList", "general_methods_8cpp.html#a9cbf7d7c2019f0e2b6f9773b687b50cd", null ],
-    [ "removeDuplicate", "general_methods_8cpp.html#a9258a7b34f46d6c0b38723a700507535", null ],
-    [ "sortVertices", "general_methods_8cpp.html#a568dde4192d450d86f6563697887fbf0", null ]
+    [ "removeDuplicate", "general_methods_8cpp.html#a13072e8b14fcea9ae253085569062158", null ],
+    [ "sortVertices", "general_methods_8cpp.html#ace3487740f3b46dce9e0357366abf9ed", null ]
 ];

@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['data',['data',['../structqt__meta__stringdata___main_window__t.html#ae8888f3a82b4bd7597ba5dad592aeec6',1,'qt_meta_stringdata_MainWindow_t::data()'],['../structqt__meta__stringdata___options__t.html#aab27f9723ba23df332a060e1f0150dc6',1,'qt_meta_stringdata_Options_t::data()'],['../structqt__meta__stringdata___selection__t.html#a3b7edbd763601e3e3e6b7decd12dc4b5',1,'qt_meta_stringdata_Selection_t::data()'],['../structqt__meta__stringdata___show_projections__t.html#ad29371ea2a69e8ca9aafddbe5c999c15',1,'qt_meta_stringdata_ShowProjections_t::data()']]]
+  ['a',['a',['../structvertex2_d.html#afef4fe9f03de3deeafb9806f144bcd28',1,'vertex2D::a()'],['../structvertex3_d.html#a40127b37210f1330f6211c904a5200a9',1,'vertex3D::a()'],['../structplane.html#a93c319b577955eca012b2866db926c1f',1,'plane::a()']]],
+  ['anglex',['angleX',['../class_show_projections.html#a87d1471d46ccad3a64ef5e4d3cc34933',1,'ShowProjections']]],
+  ['angley',['angleY',['../class_show_projections.html#a161c729ded314da8f1920b8ee5651f83',1,'ShowProjections']]],
+  ['anglez',['angleZ',['../class_show_projections.html#acecb344bb7e7cfe5610ebaa19d31c90b',1,'ShowProjections']]],
+  ['array',['array',['../structdirection.html#a63c93cc6656f46d483d80a6fbbd2f5b0',1,'direction']]]
 ];

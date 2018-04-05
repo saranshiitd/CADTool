@@ -1,5 +1,7 @@
 <map id="generalMethods::ifVertexOnPlane" name="generalMethods::ifVertexOnPlane">
-<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a21d2e8c181e8cac3762d9ca1871d2168" title="generalMethods::ifEdgeOn\lPlane" alt="" coords="229,5,409,44"/>
-<area shape="rect" id="node4" href="$namespacegeneral_methods.html#acc1b72abf045cf0d466f2829134e7d66" title="generalMethods::findVertices\lOnPlane" alt="" coords="222,68,415,107"/>
-<area shape="rect" id="node3" href="$namespacegeneral_methods.html#abf0a07083176ad5167f5ed4c89b5c5cb" title="generalMethods::findEdges\lOnPlane" alt="" coords="463,5,647,44"/>
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a21d2e8c181e8cac3762d9ca1871d2168" title="generalMethods::ifEdgeOn\lPlane" alt="" coords="222,7,402,45"/>
+<area shape="rect" id="node6" href="$namespacegeneral_methods.html#aa0669678cf59876e3249ddce7a0d1ce3" title="generalMethods::findVertices\lOnPlane" alt="" coords="450,68,643,107"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a9bff72be73e4d6faec798a23b8f28cb9" title="generalMethods::findEdges\lOnPlane" alt="" coords="455,5,639,44"/>
+<area shape="rect" id="node4" href="$classwire_frame.html#acdcde71a2d420de040065d6db4ad334d" title="wireFrame::getVEListOnPlane" alt="" coords="696,68,897,93"/>
+<area shape="rect" id="node5" href="$classwire_frame.html#ac5c8d8c3b1b5f693ad46cb54aae1108a" title="wireFrame::generateFaceLoops" alt="" coords="691,12,902,37"/>
 </map>

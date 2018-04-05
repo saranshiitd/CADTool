@@ -1,0 +1,10 @@
+<map id="faceLoop::operator==" name="faceLoop::operator==">
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="202,79,437,104"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="485,79,655,104"/>
+<area shape="rect" id="node4" href="$namespacegeneral_methods.html#a56efd049c58aae30a7b0caf39beab615" title="generalMethods::doIntersect" alt="" coords="703,79,893,104"/>
+<area shape="rect" id="node5" href="$namespacegeneral_methods.html#a7bfbfb2a02328d76e70f66fedd57c4ef" title="generalMethods::orientation" alt="" coords="944,55,1130,80"/>
+<area shape="rect" id="node9" href="$namespacegeneral_methods.html#a557bf2257d6658862b42124035aa9588" title="generalMethods::onSegment" alt="" coords="941,104,1133,129"/>
+<area shape="rect" id="node6" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="1181,5,1281,31"/>
+<area shape="rect" id="node7" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="1189,55,1273,80"/>
+<area shape="rect" id="node8" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="1188,104,1274,129"/>
+</map>

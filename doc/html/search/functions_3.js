@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['findadjacentedgesatvertexfromplanevel',['findAdjacentEdgesAtVertexFromplaneVEL',['../wireframe_8cpp.html#aafecbe11a654b4401097afff04cd3230',1,'wireframe.cpp']]],
-  ['findallcollinearoverlapingedges',['findAllCollinearOverlapingEdges',['../wireframe_8cpp.html#aad1c8b18f92337cc3309845b6729ed41',1,'wireframe.cpp']]],
-  ['findangle',['findAngle',['../_plane_8cpp.html#a41b3f23bbae2d530aafc33c3d82b19d2',1,'Plane.cpp']]],
-  ['finddistancebetweenplanes',['findDistanceBetweenPlanes',['../namespacegeneral_methods.html#a3bc88a001e751ad419e87bf3795ca02b',1,'generalMethods']]],
-  ['findedgesonplane',['findEdgesOnPlane',['../namespacegeneral_methods.html#abf0a07083176ad5167f5ed4c89b5c5cb',1,'generalMethods']]],
-  ['findnextedge',['findNextEdge',['../wireframe_8cpp.html#a3823276844aae82a44b66af0e13a855c',1,'wireframe.cpp']]],
-  ['findverticesonplane',['findVerticesOnPlane',['../namespacegeneral_methods.html#acc1b72abf045cf0d466f2829134e7d66',1,'generalMethods']]],
-  ['firstloop',['firstLoop',['../wireframe_8cpp.html#affeeaff0f8b7e425a890992a46226bce',1,'wireframe.cpp']]]
+  ['edge2d',['edge2D',['../structedge2_d.html#abac488760a745ba14a5a0c17693ed3e6',1,'edge2D::edge2D()'],['../structedge2_d.html#a95676d1bf3e35fbae3ce28a9497c643c',1,'edge2D::edge2D(vertex2D m, vertex2D n)']]],
+  ['edge3d',['edge3D',['../structedge3_d.html#a91d257e72d692950510c549e26274cd4',1,'edge3D::edge3D()'],['../structedge3_d.html#a56bba51f4351182ea95d186db5469671',1,'edge3D::edge3D(vertex3D m, vertex3D n)']]],
+  ['edgevertextriplet',['edgeVertexTriplet',['../structedge_vertex_triplet.html#a794c00faebfea5c0bc0b44d7f1e7650c',1,'edgeVertexTriplet::edgeVertexTriplet()'],['../structedge_vertex_triplet.html#a50dd657c672509d29a3dff67559c8f6b',1,'edgeVertexTriplet::edgeVertexTriplet(vertex3D vertex, edge3D edge, edge3D r, plane pln)']]]
 ];

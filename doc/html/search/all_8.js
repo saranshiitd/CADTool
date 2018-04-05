@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['magnitude',['magnitude',['../structs_8cpp.html#aaa33dec28d71df3edab47886445b9d6f',1,'structs.cpp']]],
-  ['main',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['mainwindow_2ecpp',['mainwindow.cpp',['../mainwindow_8cpp.html',1,'']]],
-  ['makeplane',['makePlane',['../namespacegeneral_methods.html#a06d99f1b292d29dbdbe4734847c8d2ee',1,'generalMethods']]],
-  ['moc_5fmainwindow_2ecpp',['moc_mainwindow.cpp',['../moc__mainwindow_8cpp.html',1,'']]],
-  ['moc_5foptions_2ecpp',['moc_options.cpp',['../moc__options_8cpp.html',1,'']]],
-  ['moc_5fselection_2ecpp',['moc_selection.cpp',['../moc__selection_8cpp.html',1,'']]],
-  ['moc_5fshowprojections_2ecpp',['moc_showprojections.cpp',['../moc__showprojections_8cpp.html',1,'']]],
-  ['multiply',['multiply',['../_two_d_obj_8cpp.html#aab60597593606ccc0dddc9f3b539173d',1,'TwoDObj.cpp']]]
+  ['ifedgeonplane',['ifEdgeOnPlane',['../namespacegeneral_methods.html#a21d2e8c181e8cac3762d9ca1871d2168',1,'generalMethods']]],
+  ['iffaceloopcontains',['ifFaceLoopContains',['../classface_loop.html#a3ed69fdb3554a255f484fa78fd1f3361',1,'faceLoop']]],
+  ['ifvertexonplane',['ifVertexOnPlane',['../namespacegeneral_methods.html#a330682bb45234d8de5228a7607d493d2',1,'generalMethods']]],
+  ['inf',['INF',['../general_methods_8h.html#a12c2040f25d8e3a7b9e1c2024c618cb6',1,'INF():&#160;generalMethods.h'],['../_two_d_obj_8cpp.html#a12c2040f25d8e3a7b9e1c2024c618cb6',1,'INF():&#160;TwoDObj.cpp']]],
+  ['isinside',['isInside',['../class_two_d_obj.html#a331a606153d723b8290bd885475bb1b5',1,'TwoDObj::isInside()'],['../namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7',1,'generalMethods::isInside()']]],
+  ['isometric',['Isometric',['../class_ui___main_window.html#a337da439425ad2b604103c6d32532012',1,'Ui_MainWindow::Isometric()'],['../class_ui___show_projections.html#a5467e3e7878ab80f5481145e09a2c982',1,'Ui_ShowProjections::Isometric()']]],
+  ['isometricview',['isometricView',['../class_two_d_obj.html#ace5d83e1b676e048176f7c17f5eee736',1,'TwoDObj']]]
 ];

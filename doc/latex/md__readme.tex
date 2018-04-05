@@ -1,0 +1,71 @@
+This application can be used to
+\begin{DoxyEnumerate}
+\item Generate Projections and Orthographic Views of 3D objects.
+\end{DoxyEnumerate}
+
+
+\begin{DoxyEnumerate}
+\item Reconstruct 3D objects from orthographic projections.
+\end{DoxyEnumerate}
+
+
+
+\subsection*{Installing}
+
+\begin{DoxyVerb}The app folder contains an AppImage which can run on Linux systems. 
+Make the app executable by running 
+
+chmod a+x CAD.AppImage 
+
+in the app folder.
+\end{DoxyVerb}
+
+
+\#\#\# Build from sources \#\#\#\# 
+\begin{DoxyCode}
+qmake CAD.pro
+make
+\end{DoxyCode}
+
+
+\subsection*{Format of Input}
+
+
+\begin{DoxyEnumerate}
+\item To Get 3D object provide a $\ast$.txt$\ast$ file containing the informaion about orthographic projections. \paragraph*{Format of $\ast$.txt$\ast$ file}
+\end{DoxyEnumerate}
+
+f 0 0 \# a vertex (0, 0) in front projection f 0 1 \# a vertex (0, 1) in front projection f ... ...
+
+fe 1 2 \# an edge in front projection between vertices (0, 0) and (0, 1) fe ... ...
+
+t 0 1 \# a vertex (0, 1) in top projection t 0 2 \# a vertex (0, 2) in top projection t 1 2 \# a vertex (1, 2) in top projection ...
+
+te 1 3 \# an edge in side projection between vertices (0, 1) and (1, 2) te 2 3 \# an edge in side projection between vertices (0, 2) and (1, 2) ...
+
+s 1 0 \# a vertex (1, 0) in side projection s 1 1 \# a vertex (1, 1) in side projection s ... ...
+
+se 1 2 \# an edge in side projection between vertices (1, 0) and (1, 1) se ... ...
+
+The application takes such a $\ast$.txt$\ast$ file and generates a $\ast$.obj$\ast$ file.
+
+
+\begin{DoxyEnumerate}
+\item To Generate Projections and Orthographic Views provide a $\ast$.obj$\ast$ file of the 3D object.
+\end{DoxyEnumerate}
+
+\paragraph*{Format of $\ast$.obj$\ast$ file}
+
+v 1 2 3 \# a vertex \textquotesingle{}v\textquotesingle{} followed by (x, y, z) coordinates of the point v ... ...
+
+f 1 3 4 \# a face \textquotesingle{}f\textquotesingle{} followed by indices of vertices lying on that plane f ... ...
+
+The application takes such a $\ast$.obj$\ast$ file and generates a $\ast$.txt$\ast$ file.
+
+\subsection*{Authors}
+
+
+\begin{DoxyItemize}
+\item {\bfseries \href{http://github.com/saranshiitd}{\tt Saransh Verma}}
+\item {\bfseries \href{http://github.com/tarunyadav452}{\tt Tarun Kumar Yadav}} 
+\end{DoxyItemize}

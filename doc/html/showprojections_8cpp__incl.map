@@ -1,2 +1,15 @@
 <map id="src/showprojections.cpp" name="src/showprojections.cpp">
+<area shape="rect" id="node2" href="$showprojections_8h.html" title="include/showprojections.h" alt="" coords="181,79,355,104"/>
+<area shape="rect" id="node10" href="$ui__showprojections_8h.html" title="ui_showprojections.h" alt="" coords="1521,79,1667,104"/>
+<area shape="rect" id="node23" href="$mainwindow_8h.html" title="include/mainwindow.h" alt="" coords="5,79,156,104"/>
+<area shape="rect" id="node28" href="$wireframe_8h.html" title="include/wireframe.h" alt="" coords="818,79,955,104"/>
+<area shape="rect" id="node29" href="$_vertex_list2_d_8h.html" title="include/VertexList2D.h" alt="" coords="924,152,1078,177"/>
+<area shape="rect" id="node30" href="$_edge_list2_d_8h.html" title="include/EdgeList2D.h" alt="" coords="1102,152,1249,177"/>
+<area shape="rect" id="node31" href="$basic_loop_edge_set_8h.html" title="include/basicLoopEdgeSet.h" alt="" coords="408,299,599,324"/>
+<area shape="rect" id="node33" href="$body_loop_8h.html" title="include/bodyLoop.h" alt="" coords="611,152,748,177"/>
+<area shape="rect" id="node34" href="$general_methods_8h.html" title="include/generalMethods.h" alt="" coords="487,79,661,104"/>
+<area shape="rect" id="node35" href="$_plane_8h.html" title="include/Plane.h" alt="" coords="1238,225,1350,251"/>
+<area shape="rect" id="node5" href="$_two_d_obj_8h.html" title="include/TwoDObj.h" alt="" coords="201,299,334,324"/>
+<area shape="rect" id="node7" href="$structs_8h.html" title="include/structs.h" alt="" coords="777,372,894,397"/>
+<area shape="rect" id="node32" href="$face_loop_8h.html" title="include/faceLoop.h" alt="" coords="613,225,746,251"/>
 </map>

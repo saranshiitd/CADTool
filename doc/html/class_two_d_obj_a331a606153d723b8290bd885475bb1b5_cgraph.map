@@ -1,0 +1,5 @@
+<map id="TwoDObj::isInside" name="TwoDObj::isInside">
+<area shape="rect" id="node2" href="$class_two_d_obj.html#a86158be2b2314a79b2eaa262c28738d5" title="TwoDObj::doIntersect" alt="" coords="182,29,332,55"/>
+<area shape="rect" id="node3" href="$class_two_d_obj.html#a68ccca268283f878cfa12c73365471a3" title="TwoDObj::orientation" alt="" coords="383,5,528,31"/>
+<area shape="rect" id="node4" href="$class_two_d_obj.html#a17f849373d477c1d46dfc917fe70c75b" title="TwoDObj::onSegment" alt="" coords="380,55,531,80"/>
+</map>

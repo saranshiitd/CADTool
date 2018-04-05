@@ -1,4 +1,6 @@
 <map id="generalMethods::doIntersect" name="generalMethods::doIntersect">
-<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="244,5,413,31"/>
-<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="461,5,696,31"/>
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="244,31,413,56"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="461,31,696,56"/>
+<area shape="rect" id="node4" href="$classface_loop.html#a603c5cfde9765657af9cf088df8fc474" title="faceLoop::operator==" alt="" coords="775,5,924,31"/>
+<area shape="rect" id="node5" href="$classwire_frame.html#ac5c8d8c3b1b5f693ad46cb54aae1108a" title="wireFrame::generateFaceLoops" alt="" coords="744,55,954,80"/>
 </map>

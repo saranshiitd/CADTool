@@ -53,6 +53,7 @@ void ShowProjections::generateView() {
          // generate a body with this obj file and take its projection
          wireFrame wireframe;
          vertex3D localVertex;
+         std::vector<std::vector<vertex3D>> vpList;
          edge3D localEdge;
          int firstVertex, secondVertex;
          int flagEndOfFile = 0;
@@ -137,6 +138,7 @@ void ShowProjections::generateView() {
 //             cout<<"end loop"<<endl ;
 //         }
 //=======
+         int l = 0;
         while( 1 ){
 
             char lineHeader[128];
@@ -171,9 +173,13 @@ void ShowProjections::generateView() {
                 }
             }
             else if ( strcmp( lineHeader, "f" ) == 0 ){
+                std::vector<vertex3D> vTempList;
                 //cout << "f ";
                 fscanf(file, "%d",&firstVertex);
                 cout << firstVertex;
+                vTempList.push_back(
+                    wireframe.vertexList.at(firstVertex-1)
+                    );
                 while(1){
                     char c;
                     fscanf(file, "%c", &c);
@@ -198,9 +204,13 @@ void ShowProjections::generateView() {
                     fscanf(file, "%d",&secondVertex);
                     cout << secondVertex;
                     wireframe.addEdge({ wireframe.vertexList.at(firstVertex-1), wireframe.vertexList.at(secondVertex-1) });
-
+                    vTempList.push_back(
+                        wireframe.vertexList.at(secondVertex-1)
+                    );
                     firstVertex = secondVertex;
                 }
+                l++;
+                vpList.push_back(vTempList);
                 if(flagEndOfFile == 1) break;
             }
             else if( strcmp( lineHeader, "\n" ) == 0)
@@ -218,11 +228,11 @@ void ShowProjections::generateView() {
         }
 //>>>>>>> d71eb707f2b67fce37676868d1921d36fb2a1869
 //          this->wireframeattr = wireframe ;;
-          wireframe.generateFullBody();
-          TwoDObj *twodObj = new TwoDObj(wireframe.vertexList, wireframe.edgeList ,  wireframe.getfaces() ) ;
+//          wireframe.generateFullBody();
+          TwoDObj *twodObj = new TwoDObj(wireframe.vertexList, wireframe.edgeList ,  vpList ) ;
           this->twoDObjAttr = twodObj ;;
 
-          // will write the views into a text file so that this 
+          // will write the views into a text file so that this
           // txt file can be used for reconstruction later
 
 

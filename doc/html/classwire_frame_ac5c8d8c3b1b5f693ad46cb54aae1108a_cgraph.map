@@ -1,0 +1,24 @@
+<map id="wireFrame::generateFaceLoops" name="wireFrame::generateFaceLoops">
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#a9bff72be73e4d6faec798a23b8f28cb9" title="generalMethods::findEdges\lOnPlane" alt="" coords="289,56,473,95"/>
+<area shape="rect" id="node5" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="264,157,498,183"/>
+<area shape="rect" id="node13" href="$classface_loop.html#aa57ee2f9fd011ac4a8aa9b922998c34a" title="faceLoop::arrange" alt="" coords="1052,221,1182,247"/>
+<area shape="rect" id="node15" href="$namespacegeneral_methods.html#ab6b6f8a5d92b39ead6c97ec0917b75a4" title="generalMethods::printEdgeList" alt="" coords="280,272,482,297"/>
+<area shape="rect" id="node17" href="$face_loop_8h.html#aebdb45838a000cabd4e38425b5a2f4d4" title="reversebasicLoopEdgeSet" alt="" coords="292,321,470,347"/>
+<area shape="rect" id="node18" href="$wireframe_8cpp.html#af5966bab7829442932dc80d9b87f740d" title="threeLoopsOneInsideOther" alt="" coords="290,371,472,396"/>
+<area shape="rect" id="node21" href="$wireframe_8cpp.html#affeeaff0f8b7e425a890992a46226bce" title="firstLoop" alt="" coords="345,420,417,445"/>
+<area shape="rect" id="node22" href="$wireframe_8cpp.html#a55753c5b6c9e224a16f6d8f344418f5c" title="secondLoop" alt="" coords="334,469,428,495"/>
+<area shape="rect" id="node23" href="$wireframe_8cpp.html#a0d4c5885ec6d7e6b9e6248d99ed2b8f4" title="thirdLoop" alt="" coords="343,519,420,544"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a21d2e8c181e8cac3762d9ca1871d2168" title="generalMethods::ifEdgeOn\lPlane" alt="" coords="551,44,730,83"/>
+<area shape="rect" id="node4" href="$namespacegeneral_methods.html#a330682bb45234d8de5228a7607d493d2" title="generalMethods::ifVertex\lOnPlane" alt="" coords="793,5,962,44"/>
+<area shape="rect" id="node6" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="556,132,725,157"/>
+<area shape="rect" id="node7" href="$namespacegeneral_methods.html#a56efd049c58aae30a7b0caf39beab615" title="generalMethods::doIntersect" alt="" coords="783,120,973,145"/>
+<area shape="rect" id="node8" href="$namespacegeneral_methods.html#a7bfbfb2a02328d76e70f66fedd57c4ef" title="generalMethods::orientation" alt="" coords="1024,171,1210,196"/>
+<area shape="rect" id="node12" href="$namespacegeneral_methods.html#a557bf2257d6658862b42124035aa9588" title="generalMethods::onSegment" alt="" coords="1021,95,1213,120"/>
+<area shape="rect" id="node9" href="$structs_8h.html#a72a85fd2481a31a24678834d5b1bf6fb" title="crossProduct" alt="" coords="1301,171,1400,196"/>
+<area shape="rect" id="node10" href="$structs_8h.html#aaa33dec28d71df3edab47886445b9d6f" title="magnitude" alt="" coords="1308,121,1392,147"/>
+<area shape="rect" id="node11" href="$structs_8h.html#a1e6021d0bec3c24b70c25881b2b9ac31" title="helping methods " alt="" coords="1307,220,1393,245"/>
+<area shape="rect" id="node14" href="$face_loop_8cpp.html#aebdb45838a000cabd4e38425b5a2f4d4" title="reversebasicLoopEdgeSet" alt="" coords="1261,269,1439,295"/>
+<area shape="rect" id="node16" href="$namespacegeneral_methods.html#a694306c7472ee1bbfb3c90c0f3d5453a" title="print methods " alt="" coords="546,272,735,297"/>
+<area shape="rect" id="node19" href="$wireframe_8cpp.html#a71eb97f01eb29db36e7873679f56053c" title="oneContainsTwo" alt="" coords="580,347,701,372"/>
+<area shape="rect" id="node20" href="$wireframe_8cpp.html#a592531cc93e56828ace2bcf34a7164f4" title="oneContainsOne" alt="" coords="580,396,701,421"/>
+</map>

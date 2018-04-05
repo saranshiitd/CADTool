@@ -2,7 +2,12 @@
 <area shape="rect" id="node2" href="$namespacegeneral_methods.html#a9cbf7d7c2019f0e2b6f9773b687b50cd" title="generalMethods::printVerticesList" alt="" coords="241,5,460,31"/>
 <area shape="rect" id="node3" href="$namespacegeneral_methods.html#af9a1c28dacf89e746b51916fe178ce1a" title="generalMethods::printEdge" alt="" coords="260,55,441,80"/>
 <area shape="rect" id="node4" href="$namespacegeneral_methods.html#ab6b6f8a5d92b39ead6c97ec0917b75a4" title="generalMethods::printEdgeList" alt="" coords="250,156,452,181"/>
-<area shape="rect" id="node5" href="$namespacegeneral_methods.html#a60a9e0ba058824389fc703dc2dbbb7e3" title="generalMethods::printVEList" alt="" coords="508,107,697,132"/>
-<area shape="rect" id="node7" href="$wireframe_8cpp.html#ac3bbab36eca6ff8e53ef23884432f7f4" title="printFaceLoop" alt="" coords="549,156,656,181"/>
-<area shape="rect" id="node6" href="$namespacegeneral_methods.html#adc8e104a2f2ed35a22be9a68051ec38d" title="generalMethods::printplaneVEL" alt="" coords="745,107,953,132"/>
+<area shape="rect" id="node5" href="$namespacegeneral_methods.html#a60a9e0ba058824389fc703dc2dbbb7e3" title="generalMethods::printVEList" alt="" coords="519,105,707,131"/>
+<area shape="rect" id="node10" href="$class_show_projections.html#aafb940c0c1400571770261580285137c" title="ShowProjections::generateView" alt="" coords="246,205,455,231"/>
+<area shape="rect" id="node11" href="$classwire_frame.html#a1f30c3a4320bb7016abedab3a1cf18d5" title="wireFrame::printVertices" alt="" coords="268,255,433,280"/>
+<area shape="rect" id="node12" href="$classwire_frame.html#a0d08d6195d840341525651ec6d598408" title="wireFrame::printEdges" alt="" coords="273,304,428,329"/>
+<area shape="rect" id="node7" href="$classwire_frame.html#a7c89bdfbf8e94eb33f90d6057f785cd9" title="wireFrame::printFaceLoops" alt="" coords="521,155,705,180"/>
+<area shape="rect" id="node8" href="$wireframe_8cpp.html#ac3bbab36eca6ff8e53ef23884432f7f4" title="printFaceLoop" alt="" coords="560,204,666,229"/>
+<area shape="rect" id="node9" href="$classwire_frame.html#ac5c8d8c3b1b5f693ad46cb54aae1108a" title="wireFrame::generateFaceLoops" alt="" coords="508,253,718,279"/>
+<area shape="rect" id="node6" href="$namespacegeneral_methods.html#adc8e104a2f2ed35a22be9a68051ec38d" title="generalMethods::printplaneVEL" alt="" coords="766,105,974,131"/>
 </map>

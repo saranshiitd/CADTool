@@ -1,0 +1,12 @@
+<map id="TwoDObj::generateTopView" name="TwoDObj::generateTopView">
+<area shape="rect" id="node2" href="$class_two_d_obj.html#a1cd226f2becc270af54e16265f9b3b55" title="TwoDObj::get2DEdge" alt="" coords="676,5,827,31"/>
+<area shape="rect" id="node3" href="$class_two_d_obj.html#ab0d27341367906fc4f4d9e5e8b4b8543" title="TwoDObj::hiddenInView" alt="" coords="240,68,403,93"/>
+<area shape="rect" id="node4" href="$class_two_d_obj.html#acd188f5b49cd1d8c21fde2d8646294fe" title="TwoDObj::checkHides" alt="" coords="451,80,604,105"/>
+<area shape="rect" id="node5" href="$class_two_d_obj.html#ab9d3420793d260703d8882196efccfc9" title="TwoDObj::planeContainsEdge" alt="" coords="652,55,852,80"/>
+<area shape="rect" id="node6" href="$class_two_d_obj.html#afddeaea49f6d8bc76473a9fa48ff37ef" title="TwoDObj::canHide" alt="" coords="685,104,818,129"/>
+<area shape="rect" id="node7" href="$class_two_d_obj.html#a265505612ca1a250f29052cb303d7762" title="TwoDObj::getPlane2D" alt="" coords="675,153,828,179"/>
+<area shape="rect" id="node8" href="$class_two_d_obj.html#a331a606153d723b8290bd885475bb1b5" title="TwoDObj::isInside" alt="" coords="687,203,816,228"/>
+<area shape="rect" id="node9" href="$class_two_d_obj.html#a86158be2b2314a79b2eaa262c28738d5" title="TwoDObj::doIntersect" alt="" coords="900,203,1049,228"/>
+<area shape="rect" id="node10" href="$class_two_d_obj.html#a68ccca268283f878cfa12c73365471a3" title="TwoDObj::orientation" alt="" coords="1100,179,1246,204"/>
+<area shape="rect" id="node11" href="$class_two_d_obj.html#a17f849373d477c1d46dfc917fe70c75b" title="TwoDObj::onSegment" alt="" coords="1097,228,1249,253"/>
+</map>

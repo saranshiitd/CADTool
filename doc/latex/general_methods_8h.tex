@@ -1,0 +1,102 @@
+\hypertarget{general_methods_8h}{}\section{include/general\+Methods.h File Reference}
+\label{general_methods_8h}\index{include/general\+Methods.\+h@{include/general\+Methods.\+h}}
+{\ttfamily \#include \char`\"{}include/structs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/basic\+Loop\+Edge\+Set.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/face\+Loop.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/body\+Loop.\+h\char`\"{}}\newline
+Include dependency graph for general\+Methods.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{general_methods_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{general_methods_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacegeneral_methods}{general\+Methods}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{general_methods_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}{I\+NF}}~10000.\+0f
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a694306c7472ee1bbfb3c90c0f3d5453a}{general\+Methods\+::print\+Vertex}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} i)
+\begin{DoxyCompactList}\small\item\em print methods \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a9cbf7d7c2019f0e2b6f9773b687b50cd}{general\+Methods\+::print\+Vertices\+List}} (vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ v)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_af9a1c28dacf89e746b51916fe178ce1a}{general\+Methods\+::print\+Edge}} (\mbox{\hyperlink{structedge3_d}{edge3D}} i)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4}{general\+Methods\+::print\+Edge\+List}} (vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ e)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a3474d24f9f545407bb5f73250a5e19d7}{general\+Methods\+::print\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_aa7c9b8abc94ae6b08d2cf083a08eaf21}{general\+Methods\+::print\+Planes}} (vector$<$ \mbox{\hyperlink{structplane}{plane}} $>$ p)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3}{general\+Methods\+::print\+V\+E\+List}} (\mbox{\hyperlink{structvertex_edge_list}{vertex\+Edge\+List}} ve\+List)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_adc8e104a2f2ed35a22be9a68051ec38d}{general\+Methods\+::printplane\+V\+EL}} (\mbox{\hyperlink{structplane_v_e_l}{plane\+V\+EL}} p)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{namespacegeneral_methods_ace3487740f3b46dce9e0357366abf9ed}{general\+Methods\+::sort\+Vertices}} (std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ V, \mbox{\hyperlink{structedge3_d}{edge3D}} e)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766}{general\+Methods\+::check\+Overlap\+Collinear}} (\mbox{\hyperlink{structedge3_d}{edge3D}} e1, \mbox{\hyperlink{structedge3_d}{edge3D}} e2)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4}{general\+Methods\+::check\+Coplanar}} (\mbox{\hyperlink{structedge3_d}{edge3D}} e1, \mbox{\hyperlink{structedge3_d}{edge3D}} e2, \mbox{\hyperlink{structedge3_d}{edge3D}} e3)
+\item 
+\mbox{\hyperlink{structplane}{plane}} \mbox{\hyperlink{namespacegeneral_methods_a06d99f1b292d29dbdbe4734847c8d2ee}{general\+Methods\+::make\+Plane}} (\mbox{\hyperlink{structedge3_d}{edge3D}} e1, \mbox{\hyperlink{structedge3_d}{edge3D}} e2)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structplane}{plane}} $>$ \mbox{\hyperlink{namespacegeneral_methods_a13072e8b14fcea9ae253085569062158}{general\+Methods\+::remove\+Duplicate}} (std\+::vector$<$ \mbox{\hyperlink{structplane}{plane}} $>$ v)
+\item 
+float \mbox{\hyperlink{namespacegeneral_methods_a3bc88a001e751ad419e87bf3795ca02b}{general\+Methods\+::find\+Distance\+Between\+Planes}} (\mbox{\hyperlink{structplane}{plane}} p, \mbox{\hyperlink{structplane}{plane}} q)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168}{general\+Methods\+::if\+Edge\+On\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p, \mbox{\hyperlink{structedge3_d}{edge3D}} e)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a330682bb45234d8de5228a7607d493d2}{general\+Methods\+::if\+Vertex\+On\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p, \mbox{\hyperlink{structvertex3_d}{vertex3D}} v)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ \mbox{\hyperlink{namespacegeneral_methods_a9bff72be73e4d6faec798a23b8f28cb9}{general\+Methods\+::find\+Edges\+On\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p, std\+::vector$<$ \mbox{\hyperlink{structedge3_d}{edge3D}} $>$ e\+List)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ \mbox{\hyperlink{namespacegeneral_methods_aa0669678cf59876e3249ddce7a0d1ce3}{general\+Methods\+::find\+Vertices\+On\+Plane}} (\mbox{\hyperlink{structplane}{plane}} p, std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ eop)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a44d97941601f5929b217570ba9027d27}{general\+Methods\+::check\+Hidden}} (\mbox{\hyperlink{structplane}{plane}} p, \mbox{\hyperlink{structedge3_d}{edge3D}} e, float \mbox{\hyperlink{structdirection}{direction}})
+\item 
+int \mbox{\hyperlink{namespacegeneral_methods_a2bb810600ec90ec064ea8496ee0ab862}{general\+Methods\+::check\+Confinement}} (\mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} fl1, \mbox{\hyperlink{classbasic_loop_edge_set}{basic\+Loop\+Edge\+Set}} fl2, \mbox{\hyperlink{structplane}{plane}} p)
+\item 
+float $\ast$ \mbox{\hyperlink{namespacegeneral_methods_a0bd9c59442b6f9c7fd3ae00832ee30df}{general\+Methods\+::get\+Alpha\+And\+Direction}} (\mbox{\hyperlink{classface_loop}{face\+Loop}} flk, \mbox{\hyperlink{classface_loop}{face\+Loop}} fls, \mbox{\hyperlink{structedge3_d}{edge3D}} reference\+Edge)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a4ebb8d563530558e025b62c647045efe}{general\+Methods\+::get\+If\+Outer}} (\mbox{\hyperlink{classbody_loop}{body\+Loop}} b)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a557bf2257d6658862b42124035aa9588}{general\+Methods\+::on\+Segment}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} v, \mbox{\hyperlink{structedge3_d}{edge3D}} edge)
+\item 
+int \mbox{\hyperlink{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef}{general\+Methods\+::orientation}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} p, \mbox{\hyperlink{structvertex3_d}{vertex3D}} q, \mbox{\hyperlink{structvertex3_d}{vertex3D}} r, \mbox{\hyperlink{structplane}{plane}} s)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615}{general\+Methods\+::do\+Intersect}} (\mbox{\hyperlink{structvertex3_d}{vertex3D}} p1, \mbox{\hyperlink{structvertex3_d}{vertex3D}} q1, \mbox{\hyperlink{structvertex3_d}{vertex3D}} p2, \mbox{\hyperlink{structvertex3_d}{vertex3D}} q2, \mbox{\hyperlink{structplane}{plane}} p)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7}{general\+Methods\+::is\+Inside}} (std\+::vector$<$ \mbox{\hyperlink{structvertex3_d}{vertex3D}} $>$ polygon, int n, \mbox{\hyperlink{structvertex3_d}{vertex3D}} p, \mbox{\hyperlink{structedge3_d}{edge3D}} ref\+Edge, \mbox{\hyperlink{structplane}{plane}} q)
+\item 
+\mbox{\hyperlink{classface_loop}{face\+Loop}} \mbox{\hyperlink{namespacegeneral_methods_afe4087e253b318326a0a1578d34b42ca}{general\+Methods\+::get\+Reversed\+Face\+Loop}} (\mbox{\hyperlink{classface_loop}{face\+Loop}} faceloop)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{general_methods_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}\label{general_methods_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}} 
+\index{general\+Methods.\+h@{general\+Methods.\+h}!I\+NF@{I\+NF}}
+\index{I\+NF@{I\+NF}!general\+Methods.\+h@{general\+Methods.\+h}}
+\subsubsection{\texorpdfstring{I\+NF}{INF}}
+{\footnotesize\ttfamily \#define I\+NF~10000.\+0f}
+
+
+
+Definition at line 8 of file general\+Methods.\+h.
+
