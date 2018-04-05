@@ -1,0 +1,22 @@
+<map id="crossProduct" name="crossProduct">
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#aa7662b2bcff30f8983da23da5edfc766" title="generalMethods::checkOverlap\lCollinear" alt="" coords="156,5,362,44"/>
+<area shape="rect" id="node4" href="$namespacegeneral_methods.html#a508d15a0c76920dc4f98cf8da254f9c4" title="generalMethods::checkCoplanar" alt="" coords="152,68,366,93"/>
+<area shape="rect" id="node6" href="$namespacegeneral_methods.html#a06d99f1b292d29dbdbe4734847c8d2ee" title="generalMethods::makePlane" alt="" coords="164,117,355,143"/>
+<area shape="rect" id="node7" href="$namespacegeneral_methods.html#a7bfbfb2a02328d76e70f66fedd57c4ef" title="generalMethods::orientation" alt="" coords="166,167,352,192"/>
+<area shape="rect" id="node11" href="$namespacegeneral_methods.html#acb2c7a35ffed7d34eff248b9d99aaa6b" title="generalMethods::getAlpha\lAndDirection" alt="" coords="171,216,348,255"/>
+<area shape="rect" id="node12" href="$_plane_8cpp.html#a41b3f23bbae2d530aafc33c3d82b19d2" title="findAngle" alt="" coords="221,279,298,304"/>
+<area shape="rect" id="node14" href="$wireframe_8cpp.html#a7a0aa62c9ec988d64485296579307afa" title="areCollinear" alt="" coords="213,435,306,460"/>
+<area shape="rect" id="node3" href="$wireframe_8cpp.html#aad1c8b18f92337cc3309845b6729ed41" title="findAllCollinearOverlaping\lEdges" alt="" coords="422,5,596,44"/>
+<area shape="rect" id="node5" href="$wireframe_8cpp.html#a199cf4fbca478ba6fe44dfae47d263af" title="are4Coplanar" alt="" coords="458,68,560,93"/>
+<area shape="rect" id="node8" href="$namespacegeneral_methods.html#a56efd049c58aae30a7b0caf39beab615" title="generalMethods::doIntersect" alt="" coords="414,132,604,157"/>
+<area shape="rect" id="node9" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="652,157,822,183"/>
+<area shape="rect" id="node10" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="870,157,1104,183"/>
+<area shape="rect" id="node13" href="$_plane_8cpp.html#ab32167b9c5f90ae9269be5b7ce973682" title="compareTriplets" alt="" coords="451,263,567,288"/>
+<area shape="rect" id="node15" href="$wireframe_8cpp.html#ab71b66e7f907a0c4b96c4de9243a9ed5" title="areNotCollinear" alt="" coords="452,312,566,337"/>
+<area shape="rect" id="node16" href="$wireframe_8cpp.html#ac9bda8873ab8c05423958f2bc83689d2" title="areAllNOnCollinear" alt="" coords="441,361,577,387"/>
+<area shape="rect" id="node17" href="$wireframe_8cpp.html#a85d71c2c63527ae6f7cb0157ea686efb" title="twoOfThreeAreCollinear" alt="" coords="427,411,591,436"/>
+<area shape="rect" id="node18" href="$wireframe_8cpp.html#a7cc33829e2aff3e83ea613e3db87a7d0" title="twoPairsAreCollinear" alt="" coords="436,460,582,485"/>
+<area shape="rect" id="node19" href="$wireframe_8cpp.html#a443e549b5ffd30ec2e0193d508f42c72" title="onlyTwoareCollinear" alt="" coords="438,509,580,535"/>
+<area shape="rect" id="node20" href="$wireframe_8cpp.html#aed5a5846f1e26671660533d2b534dfb1" title="getNonCollinearEdge" alt="" coords="435,559,583,584"/>
+<area shape="rect" id="node21" href="$wireframe_8cpp.html#a124c74bf5001443bb6999cceea113b31" title="getNonCollinearEdge4" alt="" coords="431,608,587,633"/>
+</map>

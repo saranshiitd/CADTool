@@ -1,0 +1,89 @@
+\hypertarget{selection_8cpp}{}\section{src/selection.cpp File Reference}
+\label{selection_8cpp}\index{src/selection.\+cpp@{src/selection.\+cpp}}
+{\ttfamily \#include \char`\"{}include/selection.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ui\+\_\+selection.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$Q\+File\+Dialog$>$}\newline
+{\ttfamily \#include \char`\"{}include/mainwindow.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$Q\+Application$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$Qt\+Core$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include \char`\"{}include/wireframe.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/general\+Methods.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/\+Plane.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$cctype$>$}\newline
+{\ttfamily \#include $<$locale$>$}\newline
+{\ttfamily \#include \char`\"{}include/showprojections.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Include dependency graph for selection.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{selection_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{selection_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}~3.\+1415926536
+\item 
+\#define \mbox{\hyperlink{selection_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~200
+\item 
+\#define \mbox{\hyperlink{selection_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}{F\+A\+C\+T\+OR}}~100
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const float \mbox{\hyperlink{selection_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}{S\+T\+EP}} = 2$\ast$\mbox{\hyperlink{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}/\mbox{\hyperlink{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{selection_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}\label{selection_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}} 
+\index{selection.\+cpp@{selection.\+cpp}!F\+A\+C\+T\+OR@{F\+A\+C\+T\+OR}}
+\index{F\+A\+C\+T\+OR@{F\+A\+C\+T\+OR}!selection.\+cpp@{selection.\+cpp}}
+\subsubsection{\texorpdfstring{F\+A\+C\+T\+OR}{FACTOR}}
+{\footnotesize\ttfamily \#define F\+A\+C\+T\+OR~100}
+
+
+
+Definition at line 30 of file selection.\+cpp.
+
+\mbox{\Hypertarget{selection_8cpp_a598a3330b3c21701223ee0ca14316eca}\label{selection_8cpp_a598a3330b3c21701223ee0ca14316eca}} 
+\index{selection.\+cpp@{selection.\+cpp}!PI@{PI}}
+\index{PI@{PI}!selection.\+cpp@{selection.\+cpp}}
+\subsubsection{\texorpdfstring{PI}{PI}}
+{\footnotesize\ttfamily \#define PI~3.\+1415926536}
+
+
+
+Definition at line 28 of file selection.\+cpp.
+
+\mbox{\Hypertarget{selection_8cpp_a70ed59adcb4159ac551058053e649640}\label{selection_8cpp_a70ed59adcb4159ac551058053e649640}} 
+\index{selection.\+cpp@{selection.\+cpp}!S\+I\+ZE@{S\+I\+ZE}}
+\index{S\+I\+ZE@{S\+I\+ZE}!selection.\+cpp@{selection.\+cpp}}
+\subsubsection{\texorpdfstring{S\+I\+ZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~200}
+
+
+
+Definition at line 29 of file selection.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{selection_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}\label{selection_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}} 
+\index{selection.\+cpp@{selection.\+cpp}!S\+T\+EP@{S\+T\+EP}}
+\index{S\+T\+EP@{S\+T\+EP}!selection.\+cpp@{selection.\+cpp}}
+\subsubsection{\texorpdfstring{S\+T\+EP}{STEP}}
+{\footnotesize\ttfamily const float S\+T\+EP = 2$\ast$\mbox{\hyperlink{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}/\mbox{\hyperlink{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}}
+
+
+
+Definition at line 32 of file selection.\+cpp.
+

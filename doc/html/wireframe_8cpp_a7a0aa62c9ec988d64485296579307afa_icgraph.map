@@ -1,0 +1,9 @@
+<map id="areCollinear" name="areCollinear">
+<area shape="rect" id="node2" href="$wireframe_8cpp.html#ab71b66e7f907a0c4b96c4de9243a9ed5" title="areNotCollinear" alt="" coords="172,5,286,31"/>
+<area shape="rect" id="node3" href="$wireframe_8cpp.html#ac9bda8873ab8c05423958f2bc83689d2" title="areAllNOnCollinear" alt="" coords="161,55,296,80"/>
+<area shape="rect" id="node4" href="$wireframe_8cpp.html#a85d71c2c63527ae6f7cb0157ea686efb" title="twoOfThreeAreCollinear" alt="" coords="147,104,311,129"/>
+<area shape="rect" id="node5" href="$wireframe_8cpp.html#a7cc33829e2aff3e83ea613e3db87a7d0" title="twoPairsAreCollinear" alt="" coords="156,153,302,179"/>
+<area shape="rect" id="node6" href="$wireframe_8cpp.html#a443e549b5ffd30ec2e0193d508f42c72" title="onlyTwoareCollinear" alt="" coords="158,203,300,228"/>
+<area shape="rect" id="node7" href="$wireframe_8cpp.html#aed5a5846f1e26671660533d2b534dfb1" title="getNonCollinearEdge" alt="" coords="155,252,303,277"/>
+<area shape="rect" id="node8" href="$wireframe_8cpp.html#a124c74bf5001443bb6999cceea113b31" title="getNonCollinearEdge4" alt="" coords="151,301,306,327"/>
+</map>

@@ -1,0 +1,91 @@
+\hypertarget{showprojections_8cpp}{}\section{src/showprojections.cpp File Reference}
+\label{showprojections_8cpp}\index{src/showprojections.\+cpp@{src/showprojections.\+cpp}}
+{\ttfamily \#include \char`\"{}include/showprojections.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ui\+\_\+showprojections.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}include/mainwindow.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$Q\+Application$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$Qt\+Core$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include \char`\"{}include/wireframe.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/\+Edge\+List2\+D.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/general\+Methods.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/\+Plane.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/\+Vertex\+List2\+D.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/basic\+Loop\+Edge\+Set.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}include/body\+Loop.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$cctype$>$}\newline
+{\ttfamily \#include $<$locale$>$}\newline
+Include dependency graph for showprojections.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{showprojections_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}~3.\+1415926536
+\item 
+\#define \mbox{\hyperlink{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}~99
+\item 
+\#define \mbox{\hyperlink{showprojections_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}{F\+A\+C\+T\+OR}}~100
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const float \mbox{\hyperlink{showprojections_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}{S\+T\+EP}} = 2$\ast$\mbox{\hyperlink{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}/\mbox{\hyperlink{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{showprojections_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}\label{showprojections_8cpp_a63c7acef5369ac4e5fd5f852ee1720e0}} 
+\index{showprojections.\+cpp@{showprojections.\+cpp}!F\+A\+C\+T\+OR@{F\+A\+C\+T\+OR}}
+\index{F\+A\+C\+T\+OR@{F\+A\+C\+T\+OR}!showprojections.\+cpp@{showprojections.\+cpp}}
+\subsubsection{\texorpdfstring{F\+A\+C\+T\+OR}{FACTOR}}
+{\footnotesize\ttfamily \#define F\+A\+C\+T\+OR~100}
+
+
+
+Definition at line 26 of file showprojections.\+cpp.
+
+\mbox{\Hypertarget{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}\label{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}} 
+\index{showprojections.\+cpp@{showprojections.\+cpp}!PI@{PI}}
+\index{PI@{PI}!showprojections.\+cpp@{showprojections.\+cpp}}
+\subsubsection{\texorpdfstring{PI}{PI}}
+{\footnotesize\ttfamily \#define PI~3.\+1415926536}
+
+
+
+Definition at line 24 of file showprojections.\+cpp.
+
+\mbox{\Hypertarget{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}\label{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}} 
+\index{showprojections.\+cpp@{showprojections.\+cpp}!S\+I\+ZE@{S\+I\+ZE}}
+\index{S\+I\+ZE@{S\+I\+ZE}!showprojections.\+cpp@{showprojections.\+cpp}}
+\subsubsection{\texorpdfstring{S\+I\+ZE}{SIZE}}
+{\footnotesize\ttfamily \#define S\+I\+ZE~99}
+
+
+
+Definition at line 25 of file showprojections.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{showprojections_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}\label{showprojections_8cpp_a22a8bcfa9f0309676ac74f599b2bbd39}} 
+\index{showprojections.\+cpp@{showprojections.\+cpp}!S\+T\+EP@{S\+T\+EP}}
+\index{S\+T\+EP@{S\+T\+EP}!showprojections.\+cpp@{showprojections.\+cpp}}
+\subsubsection{\texorpdfstring{S\+T\+EP}{STEP}}
+{\footnotesize\ttfamily const float S\+T\+EP = 2$\ast$\mbox{\hyperlink{showprojections_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}}/\mbox{\hyperlink{showprojections_8cpp_a70ed59adcb4159ac551058053e649640}{S\+I\+ZE}}}
+
+
+
+Definition at line 28 of file showprojections.\+cpp.
+

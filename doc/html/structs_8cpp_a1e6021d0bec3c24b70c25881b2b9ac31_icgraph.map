@@ -1,0 +1,13 @@
+<map id="dotProduct" name="dotProduct">
+<area shape="rect" id="node2" href="$namespacegeneral_methods.html#afc8f20af710f8dc24af591015acc1403" title="generalMethods::comparePairs" alt="" coords="139,5,346,31"/>
+<area shape="rect" id="node4" href="$namespacegeneral_methods.html#aa7662b2bcff30f8983da23da5edfc766" title="generalMethods::checkOverlap\lCollinear" alt="" coords="140,55,345,93"/>
+<area shape="rect" id="node6" href="$namespacegeneral_methods.html#a7bfbfb2a02328d76e70f66fedd57c4ef" title="generalMethods::orientation" alt="" coords="149,117,336,143"/>
+<area shape="rect" id="node10" href="$namespacegeneral_methods.html#acb2c7a35ffed7d34eff248b9d99aaa6b" title="generalMethods::getAlpha\lAndDirection" alt="" coords="154,167,331,205"/>
+<area shape="rect" id="node11" href="$_plane_8cpp.html#a41b3f23bbae2d530aafc33c3d82b19d2" title="findAngle" alt="" coords="204,229,281,255"/>
+<area shape="rect" id="node3" href="$namespacegeneral_methods.html#a568dde4192d450d86f6563697887fbf0" title="generalMethods::sortVertices" alt="" coords="394,5,588,31"/>
+<area shape="rect" id="node5" href="$wireframe_8cpp.html#aad1c8b18f92337cc3309845b6729ed41" title="findAllCollinearOverlaping\lEdges" alt="" coords="403,55,578,93"/>
+<area shape="rect" id="node7" href="$namespacegeneral_methods.html#a56efd049c58aae30a7b0caf39beab615" title="generalMethods::doIntersect" alt="" coords="396,117,586,143"/>
+<area shape="rect" id="node8" href="$namespacegeneral_methods.html#a27b7ed292415027c495942147e8856b7" title="generalMethods::isInside" alt="" coords="636,143,805,168"/>
+<area shape="rect" id="node9" href="$namespacegeneral_methods.html#a2bb810600ec90ec064ea8496ee0ab862" title="generalMethods::checkConfinement" alt="" coords="853,143,1088,168"/>
+<area shape="rect" id="node12" href="$_plane_8cpp.html#ab32167b9c5f90ae9269be5b7ce973682" title="compareTriplets" alt="" coords="433,229,549,255"/>
+</map>

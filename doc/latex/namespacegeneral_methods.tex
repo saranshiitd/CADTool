@@ -1,0 +1,602 @@
+\hypertarget{namespacegeneral_methods}{}\section{general\+Methods Namespace Reference}
+\label{namespacegeneral_methods}\index{general\+Methods@{general\+Methods}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a694306c7472ee1bbfb3c90c0f3d5453a}{print\+Vertex}} (vertex3D i)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a9cbf7d7c2019f0e2b6f9773b687b50cd}{print\+Vertices\+List}} (vector$<$ vertex3D $>$ v)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_af9a1c28dacf89e746b51916fe178ce1a}{print\+Edge}} (edge3D i)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4}{print\+Edge\+List}} (vector$<$ edge3D $>$ e)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a2decb2a442ba211e255e3b212f6ee041}{print\+Plane}} (plane i)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_aa7c9b8abc94ae6b08d2cf083a08eaf21}{print\+Planes}} (vector$<$ plane $>$ p)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3}{print\+V\+E\+List}} (vertex\+Edge\+List ve\+List)
+\item 
+void \mbox{\hyperlink{namespacegeneral_methods_adc8e104a2f2ed35a22be9a68051ec38d}{printplane\+V\+EL}} (plane\+V\+EL p)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_afc8f20af710f8dc24af591015acc1403}{compare\+Pairs}} (vertex\+Edge\+Pair pair1, vertex\+Edge\+Pair pair2)
+\item 
+std\+::vector$<$ vertex3D $>$ \mbox{\hyperlink{namespacegeneral_methods_a568dde4192d450d86f6563697887fbf0}{sort\+Vertices}} (std\+::vector$<$ vertex3D $>$ vertices, edge3D e)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766}{check\+Overlap\+Collinear}} (edge3D e1, edge3D e2)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4}{check\+Coplanar}} (edge3D e1, edge3D e2, edge3D e3)
+\item 
+plane \mbox{\hyperlink{namespacegeneral_methods_a06d99f1b292d29dbdbe4734847c8d2ee}{make\+Plane}} (edge3D e1, edge3D e2)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a3c49599a5ba8f2c41f2ef542bde19765}{plane\+Equal}} (plane p1, plane p2)
+\item 
+std\+::vector$<$ plane $>$ \mbox{\hyperlink{namespacegeneral_methods_a9258a7b34f46d6c0b38723a700507535}{remove\+Duplicate}} (std\+::vector$<$ plane $>$ planes)
+\item 
+float \mbox{\hyperlink{namespacegeneral_methods_a3bc88a001e751ad419e87bf3795ca02b}{find\+Distance\+Between\+Planes}} (plane p, plane q)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a330682bb45234d8de5228a7607d493d2}{if\+Vertex\+On\+Plane}} (plane p, vertex3D v)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168}{if\+Edge\+On\+Plane}} (plane p, edge3D e)
+\item 
+std\+::vector$<$ edge3D $>$ \mbox{\hyperlink{namespacegeneral_methods_abf0a07083176ad5167f5ed4c89b5c5cb}{find\+Edges\+On\+Plane}} (plane p, std\+::vector$<$ edge3D $>$ e\+List)
+\item 
+std\+::vector$<$ vertex3D $>$ \mbox{\hyperlink{namespacegeneral_methods_acc1b72abf045cf0d466f2829134e7d66}{find\+Vertices\+On\+Plane}} (plane p, std\+::vector$<$ vertex3D $>$ eop)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_ab4e1b4b0a8b5b7697adddbb27950e639}{check\+Hidden}} (plane p, edge3D e, float direction\mbox{[}$\,$\mbox{]})
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a557bf2257d6658862b42124035aa9588}{on\+Segment}} (vertex3D v, edge3D edge)
+\item 
+int \mbox{\hyperlink{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef}{orientation}} (vertex3D p, vertex3D q, vertex3D r, plane s)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615}{do\+Intersect}} (vertex3D p1, vertex3D q1, vertex3D p2, vertex3D q2, plane p)
+\item 
+bool \mbox{\hyperlink{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7}{is\+Inside}} (std\+::vector$<$ vertex3D $>$ polygon, int n, vertex3D p, edge3D ref\+Edge, plane q)
+\item 
+int \mbox{\hyperlink{namespacegeneral_methods_a2bb810600ec90ec064ea8496ee0ab862}{check\+Confinement}} (basic\+Loop\+Edge\+Set fl1, basic\+Loop\+Edge\+Set fl2, plane p)
+\item 
+float $\ast$ \mbox{\hyperlink{namespacegeneral_methods_acb2c7a35ffed7d34eff248b9d99aaa6b}{get\+Alpha\+And\+Direction}} (face\+Loop flk, face\+Loop fls, edge3D reference\+Edge)
+\item 
+face\+Loop \mbox{\hyperlink{namespacegeneral_methods_afe4087e253b318326a0a1578d34b42ca}{get\+Reversed\+Face\+Loop}} (face\+Loop faceloop)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacegeneral_methods_a2bb810600ec90ec064ea8496ee0ab862}\label{namespacegeneral_methods_a2bb810600ec90ec064ea8496ee0ab862}} 
+\index{general\+Methods@{general\+Methods}!check\+Confinement@{check\+Confinement}}
+\index{check\+Confinement@{check\+Confinement}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{check\+Confinement()}{checkConfinement()}}
+{\footnotesize\ttfamily int general\+Methods\+::check\+Confinement (\begin{DoxyParamCaption}\item[{basic\+Loop\+Edge\+Set}]{fl1,  }\item[{basic\+Loop\+Edge\+Set}]{fl2,  }\item[{plane}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 369 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a2bb810600ec90ec064ea8496ee0ab862_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4}\label{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4}} 
+\index{general\+Methods@{general\+Methods}!check\+Coplanar@{check\+Coplanar}}
+\index{check\+Coplanar@{check\+Coplanar}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{check\+Coplanar()}{checkCoplanar()}}
+{\footnotesize\ttfamily bool general\+Methods\+::check\+Coplanar (\begin{DoxyParamCaption}\item[{edge3D}]{e1,  }\item[{edge3D}]{e2,  }\item[{edge3D}]{e3 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 163 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a508d15a0c76920dc4f98cf8da254f9c4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_ab4e1b4b0a8b5b7697adddbb27950e639}\label{namespacegeneral_methods_ab4e1b4b0a8b5b7697adddbb27950e639}} 
+\index{general\+Methods@{general\+Methods}!check\+Hidden@{check\+Hidden}}
+\index{check\+Hidden@{check\+Hidden}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{check\+Hidden()}{checkHidden()}}
+{\footnotesize\ttfamily bool general\+Methods\+::check\+Hidden (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{edge3D}]{e,  }\item[{float}]{direction\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 251 of file general\+Methods.\+cpp.
+
+\mbox{\Hypertarget{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766}\label{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766}} 
+\index{general\+Methods@{general\+Methods}!check\+Overlap\+Collinear@{check\+Overlap\+Collinear}}
+\index{check\+Overlap\+Collinear@{check\+Overlap\+Collinear}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{check\+Overlap\+Collinear()}{checkOverlapCollinear()}}
+{\footnotesize\ttfamily bool general\+Methods\+::check\+Overlap\+Collinear (\begin{DoxyParamCaption}\item[{edge3D}]{e1,  }\item[{edge3D}]{e2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 126 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_aa7662b2bcff30f8983da23da5edfc766_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_afc8f20af710f8dc24af591015acc1403}\label{namespacegeneral_methods_afc8f20af710f8dc24af591015acc1403}} 
+\index{general\+Methods@{general\+Methods}!compare\+Pairs@{compare\+Pairs}}
+\index{compare\+Pairs@{compare\+Pairs}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{compare\+Pairs()}{comparePairs()}}
+{\footnotesize\ttfamily bool general\+Methods\+::compare\+Pairs (\begin{DoxyParamCaption}\item[{vertex\+Edge\+Pair}]{pair1,  }\item[{vertex\+Edge\+Pair}]{pair2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 95 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{namespacegeneral_methods_afc8f20af710f8dc24af591015acc1403_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_afc8f20af710f8dc24af591015acc1403_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615}\label{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615}} 
+\index{general\+Methods@{general\+Methods}!do\+Intersect@{do\+Intersect}}
+\index{do\+Intersect@{do\+Intersect}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{do\+Intersect()}{doIntersect()}}
+{\footnotesize\ttfamily bool general\+Methods\+::do\+Intersect (\begin{DoxyParamCaption}\item[{vertex3D}]{p1,  }\item[{vertex3D}]{q1,  }\item[{vertex3D}]{p2,  }\item[{vertex3D}]{q2,  }\item[{plane}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 295 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a56efd049c58aae30a7b0caf39beab615_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a3bc88a001e751ad419e87bf3795ca02b}\label{namespacegeneral_methods_a3bc88a001e751ad419e87bf3795ca02b}} 
+\index{general\+Methods@{general\+Methods}!find\+Distance\+Between\+Planes@{find\+Distance\+Between\+Planes}}
+\index{find\+Distance\+Between\+Planes@{find\+Distance\+Between\+Planes}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{find\+Distance\+Between\+Planes()}{findDistanceBetweenPlanes()}}
+{\footnotesize\ttfamily float general\+Methods\+::find\+Distance\+Between\+Planes (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{plane}]{q }\end{DoxyParamCaption})}
+
+
+
+Definition at line 206 of file general\+Methods.\+cpp.
+
+\mbox{\Hypertarget{namespacegeneral_methods_abf0a07083176ad5167f5ed4c89b5c5cb}\label{namespacegeneral_methods_abf0a07083176ad5167f5ed4c89b5c5cb}} 
+\index{general\+Methods@{general\+Methods}!find\+Edges\+On\+Plane@{find\+Edges\+On\+Plane}}
+\index{find\+Edges\+On\+Plane@{find\+Edges\+On\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{find\+Edges\+On\+Plane()}{findEdgesOnPlane()}}
+{\footnotesize\ttfamily std\+::vector$<$edge3D$>$ general\+Methods\+::find\+Edges\+On\+Plane (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{std\+::vector$<$ edge3D $>$}]{e\+List }\end{DoxyParamCaption})}
+
+
+
+Definition at line 227 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_abf0a07083176ad5167f5ed4c89b5c5cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_acc1b72abf045cf0d466f2829134e7d66}\label{namespacegeneral_methods_acc1b72abf045cf0d466f2829134e7d66}} 
+\index{general\+Methods@{general\+Methods}!find\+Vertices\+On\+Plane@{find\+Vertices\+On\+Plane}}
+\index{find\+Vertices\+On\+Plane@{find\+Vertices\+On\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{find\+Vertices\+On\+Plane()}{findVerticesOnPlane()}}
+{\footnotesize\ttfamily std\+::vector$<$vertex3D$>$ general\+Methods\+::find\+Vertices\+On\+Plane (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{std\+::vector$<$ vertex3D $>$}]{eop }\end{DoxyParamCaption})}
+
+
+
+Definition at line 239 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_acc1b72abf045cf0d466f2829134e7d66_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_acb2c7a35ffed7d34eff248b9d99aaa6b}\label{namespacegeneral_methods_acb2c7a35ffed7d34eff248b9d99aaa6b}} 
+\index{general\+Methods@{general\+Methods}!get\+Alpha\+And\+Direction@{get\+Alpha\+And\+Direction}}
+\index{get\+Alpha\+And\+Direction@{get\+Alpha\+And\+Direction}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{get\+Alpha\+And\+Direction()}{getAlphaAndDirection()}}
+{\footnotesize\ttfamily float$\ast$ general\+Methods\+::get\+Alpha\+And\+Direction (\begin{DoxyParamCaption}\item[{face\+Loop}]{flk,  }\item[{face\+Loop}]{fls,  }\item[{edge3D}]{reference\+Edge }\end{DoxyParamCaption})}
+
+
+
+Definition at line 417 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{namespacegeneral_methods_acb2c7a35ffed7d34eff248b9d99aaa6b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_afe4087e253b318326a0a1578d34b42ca}\label{namespacegeneral_methods_afe4087e253b318326a0a1578d34b42ca}} 
+\index{general\+Methods@{general\+Methods}!get\+Reversed\+Face\+Loop@{get\+Reversed\+Face\+Loop}}
+\index{get\+Reversed\+Face\+Loop@{get\+Reversed\+Face\+Loop}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{get\+Reversed\+Face\+Loop()}{getReversedFaceLoop()}}
+{\footnotesize\ttfamily face\+Loop general\+Methods\+::get\+Reversed\+Face\+Loop (\begin{DoxyParamCaption}\item[{face\+Loop}]{faceloop }\end{DoxyParamCaption})}
+
+
+
+Definition at line 474 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_afe4087e253b318326a0a1578d34b42ca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168}\label{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168}} 
+\index{general\+Methods@{general\+Methods}!if\+Edge\+On\+Plane@{if\+Edge\+On\+Plane}}
+\index{if\+Edge\+On\+Plane@{if\+Edge\+On\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{if\+Edge\+On\+Plane()}{ifEdgeOnPlane()}}
+{\footnotesize\ttfamily bool general\+Methods\+::if\+Edge\+On\+Plane (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{edge3D}]{e }\end{DoxyParamCaption})}
+
+
+
+Definition at line 221 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a21d2e8c181e8cac3762d9ca1871d2168_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a330682bb45234d8de5228a7607d493d2}\label{namespacegeneral_methods_a330682bb45234d8de5228a7607d493d2}} 
+\index{general\+Methods@{general\+Methods}!if\+Vertex\+On\+Plane@{if\+Vertex\+On\+Plane}}
+\index{if\+Vertex\+On\+Plane@{if\+Vertex\+On\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{if\+Vertex\+On\+Plane()}{ifVertexOnPlane()}}
+{\footnotesize\ttfamily bool general\+Methods\+::if\+Vertex\+On\+Plane (\begin{DoxyParamCaption}\item[{plane}]{p,  }\item[{vertex3D}]{v }\end{DoxyParamCaption})}
+
+
+
+Definition at line 215 of file general\+Methods.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a330682bb45234d8de5228a7607d493d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7}\label{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7}} 
+\index{general\+Methods@{general\+Methods}!is\+Inside@{is\+Inside}}
+\index{is\+Inside@{is\+Inside}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{is\+Inside()}{isInside()}}
+{\footnotesize\ttfamily bool general\+Methods\+::is\+Inside (\begin{DoxyParamCaption}\item[{std\+::vector$<$ vertex3D $>$}]{polygon,  }\item[{int}]{n,  }\item[{vertex3D}]{p,  }\item[{edge3D}]{ref\+Edge,  }\item[{plane}]{q }\end{DoxyParamCaption})}
+
+
+
+Definition at line 323 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a27b7ed292415027c495942147e8856b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a06d99f1b292d29dbdbe4734847c8d2ee}\label{namespacegeneral_methods_a06d99f1b292d29dbdbe4734847c8d2ee}} 
+\index{general\+Methods@{general\+Methods}!make\+Plane@{make\+Plane}}
+\index{make\+Plane@{make\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{make\+Plane()}{makePlane()}}
+{\footnotesize\ttfamily plane general\+Methods\+::make\+Plane (\begin{DoxyParamCaption}\item[{edge3D}]{e1,  }\item[{edge3D}]{e2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 175 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{namespacegeneral_methods_a06d99f1b292d29dbdbe4734847c8d2ee_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a557bf2257d6658862b42124035aa9588}\label{namespacegeneral_methods_a557bf2257d6658862b42124035aa9588}} 
+\index{general\+Methods@{general\+Methods}!on\+Segment@{on\+Segment}}
+\index{on\+Segment@{on\+Segment}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{on\+Segment()}{onSegment()}}
+{\footnotesize\ttfamily bool general\+Methods\+::on\+Segment (\begin{DoxyParamCaption}\item[{vertex3D}]{v,  }\item[{edge3D}]{edge }\end{DoxyParamCaption})}
+
+
+
+Definition at line 268 of file general\+Methods.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a557bf2257d6658862b42124035aa9588_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef}\label{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef}} 
+\index{general\+Methods@{general\+Methods}!orientation@{orientation}}
+\index{orientation@{orientation}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{orientation()}{orientation()}}
+{\footnotesize\ttfamily int general\+Methods\+::orientation (\begin{DoxyParamCaption}\item[{vertex3D}]{p,  }\item[{vertex3D}]{q,  }\item[{vertex3D}]{r,  }\item[{plane}]{s }\end{DoxyParamCaption})}
+
+
+
+Definition at line 277 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a7bfbfb2a02328d76e70f66fedd57c4ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a3c49599a5ba8f2c41f2ef542bde19765}\label{namespacegeneral_methods_a3c49599a5ba8f2c41f2ef542bde19765}} 
+\index{general\+Methods@{general\+Methods}!plane\+Equal@{plane\+Equal}}
+\index{plane\+Equal@{plane\+Equal}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{plane\+Equal()}{planeEqual()}}
+{\footnotesize\ttfamily bool general\+Methods\+::plane\+Equal (\begin{DoxyParamCaption}\item[{plane}]{p1,  }\item[{plane}]{p2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 188 of file general\+Methods.\+cpp.
+
+\mbox{\Hypertarget{namespacegeneral_methods_af9a1c28dacf89e746b51916fe178ce1a}\label{namespacegeneral_methods_af9a1c28dacf89e746b51916fe178ce1a}} 
+\index{general\+Methods@{general\+Methods}!print\+Edge@{print\+Edge}}
+\index{print\+Edge@{print\+Edge}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Edge()}{printEdge()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Edge (\begin{DoxyParamCaption}\item[{edge3D}]{i }\end{DoxyParamCaption})}
+
+~\newline
+print the edge\+List
+
+Definition at line 36 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_af9a1c28dacf89e746b51916fe178ce1a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4}\label{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4}} 
+\index{general\+Methods@{general\+Methods}!print\+Edge\+List@{print\+Edge\+List}}
+\index{print\+Edge\+List@{print\+Edge\+List}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Edge\+List()}{printEdgeList()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Edge\+List (\begin{DoxyParamCaption}\item[{vector$<$ edge3D $>$}]{e }\end{DoxyParamCaption})}
+
+~\newline
+print the edge\+List
+
+Definition at line 43 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_ab6b6f8a5d92b39ead6c97ec0917b75a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a2decb2a442ba211e255e3b212f6ee041}\label{namespacegeneral_methods_a2decb2a442ba211e255e3b212f6ee041}} 
+\index{general\+Methods@{general\+Methods}!print\+Plane@{print\+Plane}}
+\index{print\+Plane@{print\+Plane}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Plane()}{printPlane()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Plane (\begin{DoxyParamCaption}\item[{plane}]{i }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file general\+Methods.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a2decb2a442ba211e255e3b212f6ee041_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_aa7c9b8abc94ae6b08d2cf083a08eaf21}\label{namespacegeneral_methods_aa7c9b8abc94ae6b08d2cf083a08eaf21}} 
+\index{general\+Methods@{general\+Methods}!print\+Planes@{print\+Planes}}
+\index{print\+Planes@{print\+Planes}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Planes()}{printPlanes()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Planes (\begin{DoxyParamCaption}\item[{vector$<$ plane $>$}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 57 of file general\+Methods.\+cpp.
+
+\mbox{\Hypertarget{namespacegeneral_methods_adc8e104a2f2ed35a22be9a68051ec38d}\label{namespacegeneral_methods_adc8e104a2f2ed35a22be9a68051ec38d}} 
+\index{general\+Methods@{general\+Methods}!printplane\+V\+EL@{printplane\+V\+EL}}
+\index{printplane\+V\+EL@{printplane\+V\+EL}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{printplane\+V\+E\+L()}{printplaneVEL()}}
+{\footnotesize\ttfamily void general\+Methods\+::printplane\+V\+EL (\begin{DoxyParamCaption}\item[{plane\+V\+EL}]{p }\end{DoxyParamCaption})}
+
+
+
+Definition at line 71 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_adc8e104a2f2ed35a22be9a68051ec38d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3}\label{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3}} 
+\index{general\+Methods@{general\+Methods}!print\+V\+E\+List@{print\+V\+E\+List}}
+\index{print\+V\+E\+List@{print\+V\+E\+List}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+V\+E\+List()}{printVEList()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+V\+E\+List (\begin{DoxyParamCaption}\item[{vertex\+Edge\+List}]{ve\+List }\end{DoxyParamCaption})}
+
+
+
+Definition at line 63 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a60a9e0ba058824389fc703dc2dbbb7e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a694306c7472ee1bbfb3c90c0f3d5453a}\label{namespacegeneral_methods_a694306c7472ee1bbfb3c90c0f3d5453a}} 
+\index{general\+Methods@{general\+Methods}!print\+Vertex@{print\+Vertex}}
+\index{print\+Vertex@{print\+Vertex}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Vertex()}{printVertex()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Vertex (\begin{DoxyParamCaption}\item[{vertex3D}]{i }\end{DoxyParamCaption})}
+
+print methods 
+
+Definition at line 20 of file general\+Methods.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a694306c7472ee1bbfb3c90c0f3d5453a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a9cbf7d7c2019f0e2b6f9773b687b50cd}\label{namespacegeneral_methods_a9cbf7d7c2019f0e2b6f9773b687b50cd}} 
+\index{general\+Methods@{general\+Methods}!print\+Vertices\+List@{print\+Vertices\+List}}
+\index{print\+Vertices\+List@{print\+Vertices\+List}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{print\+Vertices\+List()}{printVerticesList()}}
+{\footnotesize\ttfamily void general\+Methods\+::print\+Vertices\+List (\begin{DoxyParamCaption}\item[{vector$<$ vertex3D $>$}]{v }\end{DoxyParamCaption})}
+
+print the vertex\+List
+
+Definition at line 24 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a9cbf7d7c2019f0e2b6f9773b687b50cd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacegeneral_methods_a9258a7b34f46d6c0b38723a700507535}\label{namespacegeneral_methods_a9258a7b34f46d6c0b38723a700507535}} 
+\index{general\+Methods@{general\+Methods}!remove\+Duplicate@{remove\+Duplicate}}
+\index{remove\+Duplicate@{remove\+Duplicate}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{remove\+Duplicate()}{removeDuplicate()}}
+{\footnotesize\ttfamily std\+::vector$<$plane$>$ general\+Methods\+::remove\+Duplicate (\begin{DoxyParamCaption}\item[{std\+::vector$<$ plane $>$}]{planes }\end{DoxyParamCaption})}
+
+
+
+Definition at line 195 of file general\+Methods.\+cpp.
+
+\mbox{\Hypertarget{namespacegeneral_methods_a568dde4192d450d86f6563697887fbf0}\label{namespacegeneral_methods_a568dde4192d450d86f6563697887fbf0}} 
+\index{general\+Methods@{general\+Methods}!sort\+Vertices@{sort\+Vertices}}
+\index{sort\+Vertices@{sort\+Vertices}!general\+Methods@{general\+Methods}}
+\subsubsection{\texorpdfstring{sort\+Vertices()}{sortVertices()}}
+{\footnotesize\ttfamily std\+::vector$<$vertex3D$>$ general\+Methods\+::sort\+Vertices (\begin{DoxyParamCaption}\item[{std\+::vector$<$ vertex3D $>$}]{vertices,  }\item[{edge3D}]{e }\end{DoxyParamCaption})}
+
+
+
+Definition at line 105 of file general\+Methods.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegeneral_methods_a568dde4192d450d86f6563697887fbf0_cgraph}
+\end{center}
+\end{figure}
